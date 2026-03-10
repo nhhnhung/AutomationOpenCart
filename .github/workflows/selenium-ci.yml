@@ -30,9 +30,9 @@ jobs:
         run: mvn clean test "-DsuiteXmlFile=suites/testng.xml"
 
 
-      - name: Upload TestNG Report
+      - name: Upload Allure Results
         uses: actions/upload-artifact@v4
         with:
-          name: testng-report
-          path: test-output
+           name: allure-results
+           path: allure-results
 
