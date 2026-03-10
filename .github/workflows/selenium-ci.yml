@@ -32,6 +32,9 @@ jobs:
           distribution: temurin
           java-version: 17
 
+      - name: Clean Maven cache
+        run: rm -rf ~/.m2/repository
+
       - name: Run Selenium Test
         run: mvn clean test "-DsuiteXmlFile=suites/testng.xml"
 
