@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Checkout Test Suite">
+
+    <test name="Checkout Tests">
+        <classes>
+            <class name="com.opencart.tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>

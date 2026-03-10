@@ -27,7 +27,7 @@ jobs:
           java-version: 17
 
       - name: Run Selenium Test
-        run: mvn clean test "-DsuiteXmlFile=suites/testng.xml"
+        run: mvn clean test "-DsuiteXmlFile=suites/search.xml"
 
 
       - name: Upload Allure Results

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Register Test Suite">
+
+    <test name="Register Tests">
+        <classes>
+            <class name="com.opencart.tests.RegisterTest"/>
+        </classes>
+    </test>
+
+</suite>
