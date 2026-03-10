@@ -12,19 +12,12 @@ on:
 jobs:
   selenium-test:
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
 
       - name: Checkout code
         uses: actions/checkout@v3
-
-
-      - name: Start OpenCart
-        run: docker run -d -p 8080:80 bitnami/opencart
-
-      - name: Wait for OpenCart
-        run: sleep 40
 
       - name: Setup Java
         uses: actions/setup-java@v3
@@ -35,8 +28,8 @@ jobs:
       - name: Run Selenium Test
         run: mvn clean test "-DsuiteXmlFile=suites/testng.xml"
 
-      - name: Upload Test Report
+      - name: Upload TestNG Report
         uses: actions/upload-artifact@v4
         with:
-          name: automation-report
+          name: testng-report
           path: test-output
