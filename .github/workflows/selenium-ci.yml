@@ -12,34 +12,18 @@ on:
 jobs:
   selenium-test:
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
 
       - name: Checkout code
         uses: actions/checkout@v3
 
-
-      - name: Start OpenCart
-        run: docker compose up -d
-
-      - name: Wait for OpenCart
-        run: sleep 40
-
-      - name: Setup Java
+      - name: Setup Javagit status
         uses: actions/setup-java@v3
         with:
           distribution: temurin
           java-version: 17
 
-      - name: Download Maven dependencies
-        run: mvn dependency:resolve
-
       - name: Run Selenium Test
-        run: mvn -B clean test -DsuiteXmlFile=suites/testng.xml
-
-      - name: Upload Test Report
-        uses: actions/upload-artifact@v4
-        with:
-          name: automation-report
-          path: test-output
+        run: mvn clean test "-DsuiteXmlFile=suites/testng.xml"
