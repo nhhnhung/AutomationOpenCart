@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"8399274b4bb69ec8699907dd6ef7de4e","name":"Default Suite","statistic":{"failed":3,"broken":2,"skipped":2,"passed":15,"unknown":0,"total":22}},{"uid":"ae1123ff1d1fe6730eab6e04edd1ec6e","name":"OpenCart Regression Suite","statistic":{"failed":2,"broken":3,"skipped":0,"passed":28,"unknown":0,"total":33}}]}
