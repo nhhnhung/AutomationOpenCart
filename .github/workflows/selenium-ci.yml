@@ -21,7 +21,7 @@ jobs:
 
 
       - name: Start OpenCart
-        run: docker run -d -p 8080:80 bitnami/opencart
+        run: docker compose up -d
 
       - name: Wait for OpenCart
         run: sleep 40
