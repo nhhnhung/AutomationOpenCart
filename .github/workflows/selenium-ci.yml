@@ -23,7 +23,7 @@ jobs:
           java-version: 17
 
       - name: Run Selenium Test
-        run: mvn clean test -Dsurefire.suiteXmlFiles=suites/search.xml
+        run: mvn clean test "-DsuiteXmlFile=suites/search.xml"
 
       - name: Generate Allure Report
         uses: simple-elf/allure-report-action@v1.7
