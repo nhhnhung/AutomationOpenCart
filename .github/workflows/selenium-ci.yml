@@ -6,9 +6,6 @@ on:
 
   workflow_dispatch:
 
-  schedule:
-    - cron: '0 1 * * *'
-
 jobs:
   selenium-test:
 
@@ -19,7 +16,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-
       - name: Setup Java
         uses: actions/setup-java@v3
         with:
@@ -27,12 +23,16 @@ jobs:
           java-version: 17
 
       - name: Run Selenium Test
-        run: mvn clean test "-DsuiteXmlFile=suites/search.xml"
+        run: mvn clean test -Dsurefire.suiteXmlFiles=suites/search.xml
 
-
-      - name: Upload Allure Results
-        uses: actions/upload-artifact@v4
+      - name: Generate Allure Report
+        uses: simple-elf/allure-report-action@v1.7
         with:
-           name: allure-results
-           path: allure-results
+          allure_results: allure-results
+          allure_report: allure-report
 
+      - name: Deploy report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: allure-report
