@@ -1,0 +1,29 @@
+name: Selenium Automation Test
+
+on:
+  push:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 1 * * *'
+
+jobs:
+  selenium-test:
+
+    runs-on: self-hosted
+
+    steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Run Selenium Test
+        run: mvn clean test -DsuiteXmlFile=suites/testng.xml
