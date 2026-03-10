@@ -25,16 +25,11 @@ jobs:
       - name: Run Selenium Test
         run: mvn clean test "-DsuiteXmlFile=suites/search.xml"
 
-      - name: Install Allure
-        run: |
-          npm install -g allure-commandline --save-dev
+      - name: Generate Surefire HTML Report
+        run: mvn surefire-report:report
 
-      - name: Generate Allure Report
-        run: |
-          allure generate allure-results --clean -o allure-report
-
-      - name: Upload Allure Report
+      - name: Upload Surefire HTML Report
         uses: actions/upload-artifact@v4
         with:
-          name: allure-report
-          path: allure-report
+          name: surefire-html-report
+          path: target/site
