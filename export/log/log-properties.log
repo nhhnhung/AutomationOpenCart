@@ -5894,3 +5894,131 @@ Thông báo th?c t?: [] expected [true] but found [false]
 [INFO] 10-03-2026 13:18:05 [main] Log - Giá tr? ?úng
 [INFO] 10-03-2026 13:18:05 [main] Log - Test case filterProduct is passed.
 [INFO] 10-03-2026 13:18:08 [main] Log - End testing OpenCart Tests
+[INFO] 11-03-2026 12:07:05 [main] Log - Kh?i t?o trình duy?t: chrome
+[INFO] 11-03-2026 12:07:16 [main] Log - Running test case testLoginSuccess
+[INFO] 11-03-2026 12:07:18 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:07:18 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:07:18 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (552211eb853a7442e17107c56d58bbf6)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 11-03-2026 12:07:19 [main] Log - Test case testLoginSuccess is passed.
+[INFO] 11-03-2026 12:07:23 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 11-03-2026 12:07:25 [main] Log - Thông báo l?i: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 11-03-2026 12:07:25 [main] Log - Test case testLoginNegativeBoundary is passed.
+[INFO] 11-03-2026 12:07:27 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 11-03-2026 12:07:28 [main] Log - Thông báo l?i: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 11-03-2026 12:07:28 [main] Log - Test case testLoginNegativeBoundary is passed.
+[INFO] 11-03-2026 12:07:31 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 11-03-2026 12:07:32 [main] Log - Thông báo l?i: [Warning: No match for E-Mail Address and/or Password.]
+[ERROR] 11-03-2026 12:07:32 [main] Log - Test case testLoginNegativeBoundary is failed.
+[ERROR] 11-03-2026 12:07:32 [main] Log - java.lang.AssertionError: L?i mong mu?n không tìm th?y: Password must not be empty
+Thông báo th?c t?: [Warning: No match for E-Mail Address and/or Password.] expected [true] but found [false]
+[INFO] 11-03-2026 12:07:35 [main] Log - Running test case testBlockLogin
+[INFO] 11-03-2026 12:07:36 [main] Log - Thông báo l?i: [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+[INFO] 11-03-2026 12:07:36 [main] Log - Test case testBlockLogin is passed.
+[INFO] 11-03-2026 12:07:39 [main] Log - Running test case testLoginWhenLoginBlock
+[INFO] 11-03-2026 12:08:25 [main] Log - Thông báo l?i: []
+[ERROR] 11-03-2026 12:08:25 [main] Log - Test case testLoginWhenLoginBlock is failed.
+[ERROR] 11-03-2026 12:08:26 [main] Log - java.lang.AssertionError: L?i mong mu?n không tìm th?y: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+Thông báo th?c t?: [] expected [true] but found [false]
+[INFO] 11-03-2026 12:08:28 [main] Log - Kh?i t?o trình duy?t: chrome
+[INFO] 11-03-2026 12:08:31 [main] Log - Running test case registerSuccess
+[INFO] 11-03-2026 12:08:32 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:08:32 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:08:32 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 11-03-2026 12:08:33 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 11-03-2026 12:08:36 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:08:36 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:08:36 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 11-03-2026 12:08:36 [main] Log - Test case registerSuccess is passed.
+[INFO] 11-03-2026 12:08:39 [main] Log - Running test case registerSuccess
+[INFO] 11-03-2026 12:08:40 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:08:40 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:08:40 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 11-03-2026 12:08:40 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 11-03-2026 12:08:41 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:08:41 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:08:41 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 11-03-2026 12:08:42 [main] Log - Test case registerSuccess is passed.
+[INFO] 11-03-2026 12:08:45 [main] Log - Running test case registerSuccess
+[INFO] 11-03-2026 12:08:45 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:08:45 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:08:45 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 11-03-2026 12:08:46 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 11-03-2026 12:08:47 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:08:47 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:08:47 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 11-03-2026 12:08:48 [main] Log - Test case registerSuccess is passed.
+[INFO] 11-03-2026 12:08:51 [main] Log - Running test case registerNegativeBoundary
+[INFO] 11-03-2026 12:08:51 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 11-03-2026 12:08:52 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 11-03-2026 12:09:38 [main] Log - Thông báo l?i: [Warning: E-Mail Address is already registered!]
+[INFO] 11-03-2026 12:09:38 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 11-03-2026 12:09:40 [main] Log - Running test case registerNegativeBoundary
+[INFO] 11-03-2026 12:09:41 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 11-03-2026 12:09:42 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 11-03-2026 12:10:28 [main] Log - Thông báo l?i: [Password confirmation does not match password!]
+[INFO] 11-03-2026 12:10:28 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 11-03-2026 12:10:30 [main] Log - Running test case registerNegativeBoundary
+[INFO] 11-03-2026 12:10:31 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 11-03-2026 12:10:32 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 11-03-2026 12:10:34 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (721dd98e5d027c32ff9faab0895f8d3b)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[ERROR] 11-03-2026 12:12:01 [main] Log - Test case registerNegativeBoundary is failed.
+[ERROR] 11-03-2026 12:12:01 [main] Log - Test case registerNegativeBoundary is failed.
+[INFO] 11-03-2026 12:12:01 [main] Log - End testing OpenCart Tests
+[INFO] 11-03-2026 12:15:41 [main] Log - Kh?i t?o trình duy?t: chrome
+[INFO] 11-03-2026 12:15:47 [main] Log - Running test case searchValidKeyword
+[INFO] 11-03-2026 12:15:48 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:15:48 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:15:48 [main] Log - Test case searchValidKeyword is passed.
+[INFO] 11-03-2026 12:15:50 [main] Log - Running test case searchValidKeyword
+[INFO] 11-03-2026 12:15:51 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:15:51 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:15:51 [main] Log - Test case searchValidKeyword is passed.
+[INFO] 11-03-2026 12:15:54 [main] Log - Running test case searchValidKeyword
+[INFO] 11-03-2026 12:15:54 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:15:54 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:15:54 [main] Log - Test case searchValidKeyword is passed.
+[INFO] 11-03-2026 12:15:57 [main] Log - Running test case filterFromCategory
+[INFO] 11-03-2026 12:15:58 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[ERROR] 11-03-2026 12:15:58 [main] Log - Test case filterFromCategory is failed.
+[ERROR] 11-03-2026 12:15:58 [main] Log - java.lang.RuntimeException: Ki?m tra th?t b?i: L?i: L?c theo danh m?c không hi?n s?n ph?m
+[INFO] 11-03-2026 12:16:00 [main] Log - Running test case searchInvalidKeyword
+[INFO] 11-03-2026 12:16:01 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:16:01 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:16:01 [main] Log - Test case searchInvalidKeyword is passed.
+[INFO] 11-03-2026 12:16:03 [main] Log - Running test case searchInvalidKeyword
+[INFO] 11-03-2026 12:16:04 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:16:04 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:16:04 [main] Log - Test case searchInvalidKeyword is passed.
+[INFO] 11-03-2026 12:16:06 [main] Log - Running test case searchInvalidKeyword
+[INFO] 11-03-2026 12:16:07 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:16:07 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:16:07 [main] Log - Test case searchInvalidKeyword is passed.
+[INFO] 11-03-2026 12:16:09 [main] Log - Running test case filterProduct
+[INFO] 11-03-2026 12:16:11 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:16:11 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:16:12 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:16:12 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:16:12 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:16:12 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:16:13 [main] Log - ?ang xác th?c giá tr? ?úng...
+
+[INFO] 11-03-2026 12:16:13 [main] Log - Giá tr? ?úng
+[INFO] 11-03-2026 12:16:13 [main] Log - Test case filterProduct is passed.
+[INFO] 11-03-2026 12:16:16 [main] Log - End testing Search Tests

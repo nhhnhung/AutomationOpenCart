@@ -30,9 +30,14 @@ jobs:
         run: mvn clean test "-DsuiteXmlFile=suites/search.xml"
 
 
-      - name: Upload Allure Results
-        uses: actions/upload-artifact@v4
+      - name: Copy report
+        run: |
+          mkdir public
+          cp -r target/surefire-reports/* public/
+
+      - name: Deploy report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-           name: allure-results
-           path: allure-results
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
 
