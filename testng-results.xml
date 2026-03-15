@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-11T12:48:24 ICT" name="Search Test Suite" finished-at="2026-03-11T12:48:59 ICT" duration-ms="34909">
+  <suite started-at="2026-03-15T11:02:20 ICT" name="Search Test Suite" finished-at="2026-03-15T11:02:56 ICT" duration-ms="35712">
     <groups>
     </groups>
-    <test started-at="2026-03-11T12:48:24 ICT" name="Search Tests" finished-at="2026-03-11T12:48:59 ICT" duration-ms="34909">
+    <test started-at="2026-03-15T11:02:20 ICT" name="Search Tests" finished-at="2026-03-15T11:02:56 ICT" duration-ms="35712">
       <class name="com.opencart.tests.SearchTest">
-        <test-method is-config="true" signature="createDriver()[pri:0, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-03-11T12:48:24 ICT" name="createDriver" finished-at="2026-03-11T12:48:29 ICT" duration-ms="4849" status="PASS">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:com.opencart.tests.SearchTest@5116ac09]" started-at="2026-03-15T11:02:20 ICT" name="createDriver" finished-at="2026-03-15T11:02:33 ICT" duration-ms="12219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-03-11T12:48:29 ICT" name="initPages" finished-at="2026-03-11T12:48:29 ICT" duration-ms="341" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.opencart.tests.SearchTest@5116ac09]" started-at="2026-03-15T11:02:33 ICT" name="initPages" finished-at="2026-03-15T11:02:33 ICT" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="searchValidKeyword(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-03-11T12:48:31 ICT" name="searchValidKeyword" data-provider="searchData" finished-at="2026-03-11T12:48:32 ICT" duration-ms="1064" status="PASS">
+        <test-method signature="searchValidKeyword(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.tests.SearchTest@5116ac09]" started-at="2026-03-15T11:02:35 ICT" name="searchValidKeyword" data-provider="searchData" finished-at="2026-03-15T11:02:37 ICT" duration-ms="1423" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchValidKeyword -->
-        <test-method signature="searchValidKeyword(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-03-11T12:48:35 ICT" name="searchValidKeyword" data-provider="searchData" finished-at="2026-03-11T12:48:36 ICT" duration-ms="623" status="PASS">
+        <test-method signature="searchValidKeyword(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.tests.SearchTest@5116ac09]" started-at="2026-03-15T11:02:39 ICT" name="searchValidKeyword" data-provider="searchData" finished-at="2026-03-15T11:02:40 ICT" duration-ms="633" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchValidKeyword -->
-        <test-method signature="searchValidKeyword(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-03-11T12:48:38 ICT" name="searchValidKeyword" data-provider="searchData" finished-at="2026-03-11T12:48:39 ICT" duration-ms="798" status="PASS">
+        <test-method signature="searchValidKeyword(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.tests.SearchTest@5116ac09]" started-at="2026-03-15T11:02:41 ICT" name="searchValidKeyword" data-provider="searchData" finished-at="2026-03-15T11:02:42 ICT" duration-ms="582" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchValidKeyword -->
-        <test-method signature="filterFromCategory()[pri:2, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-03-11T12:48:41 ICT" name="filterFromCategory" finished-at="2026-03-11T12:48:42 ICT" duration-ms="1185" status="FAIL">
+        <test-method signature="filterFromCategory()[pri:2, instance:com.opencart.tests.SearchTest@5116ac09]" started-at="2026-03-15T11:02:43 ICT" name="filterFromCategory" finished-at="2026-03-15T11:02:44 ICT" duration-ms="1051" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Kiểm tra thất bại: Lỗi: Lọc theo danh mục không hiện sản phẩm]]>
@@ -110,7 +110,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterFromCategory -->
-        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-03-11T12:48:45 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-03-11T12:48:45 ICT" duration-ms="544" status="PASS">
+        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@5116ac09]" started-at="2026-03-15T11:02:46 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-03-15T11:02:47 ICT" duration-ms="524" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,7 +126,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchInvalidKeyword -->
-        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-03-11T12:48:48 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-03-11T12:48:48 ICT" duration-ms="541" status="PASS">
+        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@5116ac09]" started-at="2026-03-15T11:02:48 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-03-15T11:02:48 ICT" duration-ms="513" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,7 +142,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchInvalidKeyword -->
-        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-03-11T12:48:51 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-03-11T12:48:51 ICT" duration-ms="596" status="PASS">
+        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@5116ac09]" started-at="2026-03-15T11:02:50 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-03-15T11:02:50 ICT" duration-ms="474" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,11 +158,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchInvalidKeyword -->
-        <test-method signature="filterProduct()[pri:3, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-03-11T12:48:53 ICT" name="filterProduct" finished-at="2026-03-11T12:48:56 ICT" duration-ms="2906" status="PASS">
+        <test-method signature="filterProduct()[pri:3, instance:com.opencart.tests.SearchTest@5116ac09]" started-at="2026-03-15T11:02:51 ICT" name="filterProduct" finished-at="2026-03-15T11:02:54 ICT" duration-ms="2869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterProduct -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-03-11T12:48:59 ICT" name="closeDriver" finished-at="2026-03-11T12:48:59 ICT" duration-ms="348" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.opencart.tests.SearchTest@5116ac09]" started-at="2026-03-15T11:02:56 ICT" name="closeDriver" finished-at="2026-03-15T11:02:56 ICT" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
