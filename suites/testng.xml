@@ -2,16 +2,12 @@
 
 <suite name="OpenCart Regression Suite">
 
-    <test name="OpenCart Tests">
-
-        <classes>
-            <class name="com.opencart.tests.LoginTest"/>
-            <class name="com.opencart.tests.RegisterTest"/>
-            <class name="com.opencart.tests.CartTest"/>
-            <class name="com.opencart.tests.CheckoutTest"/>
-            <class name="com.opencart.tests.SearchTest"/>
-        </classes>
-
-    </test>
+    <suite-files>
+        <suite-file path="login.xml"/>
+        <suite-file path="register.xml"/>
+        <suite-file path="search.xml"/>
+        <suite-file path="cart.xml"/>
+        <suite-file path="checkout.xml"/>
+    </suite-files>
 
 </suite>

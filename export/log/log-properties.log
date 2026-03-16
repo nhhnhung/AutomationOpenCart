@@ -6022,3 +6022,593 @@ Th�ng b�o th?c t?: [] expected [true] but found [false]
 [INFO] 11-03-2026 12:16:13 [main] Log - Gi� tr? ?�ng
 [INFO] 11-03-2026 12:16:13 [main] Log - Test case filterProduct is passed.
 [INFO] 11-03-2026 12:16:16 [main] Log - End testing Search Tests
+[INFO] 15-03-2026 12:11:02 [main] Log - Khởi tạo trình duyệt: chrome
+[INFO] 15-03-2026 12:11:11 [main] Log - Running test case testLoginSuccess
+[ERROR] 15-03-2026 12:11:13 [main] Log - Test case testLoginSuccess is failed.
+[ERROR] 15-03-2026 12:11:13 [main] Log - Test case testLoginSuccess is failed.
+[INFO] 15-03-2026 12:11:13 [main] Log - End testing OpenCart Tests
+[INFO] 15-03-2026 12:15:45 [main] Log - Khởi tạo trình duyệt: chrome
+[INFO] 15-03-2026 12:15:49 [main] Log - Running test case testLoginSuccess
+[INFO] 15-03-2026 12:15:51 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:15:51 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:15:51 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (769419adb1b7303ea5518c4831e36c5d)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 15-03-2026 12:15:52 [main] Log - Test case testLoginSuccess is passed.
+[INFO] 15-03-2026 12:15:55 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 15-03-2026 12:15:56 [main] Log - Thông báo lỗi: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 15-03-2026 12:15:56 [main] Log - Test case testLoginNegativeBoundary is passed.
+[INFO] 15-03-2026 12:15:58 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 15-03-2026 12:15:59 [main] Log - Thông báo lỗi: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 15-03-2026 12:15:59 [main] Log - Test case testLoginNegativeBoundary is passed.
+[INFO] 15-03-2026 12:16:00 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 15-03-2026 12:16:01 [main] Log - Thông báo lỗi: [Warning: No match for E-Mail Address and/or Password.]
+[ERROR] 15-03-2026 12:16:01 [main] Log - Test case testLoginNegativeBoundary is failed.
+[ERROR] 15-03-2026 12:16:01 [main] Log - java.lang.AssertionError: Lỗi mong muốn không tìm thấy: Password must not be empty
+Thông báo thực tế: [Warning: No match for E-Mail Address and/or Password.] expected [true] but found [false]
+[INFO] 15-03-2026 12:16:03 [main] Log - Running test case testBlockLogin
+[INFO] 15-03-2026 12:16:04 [main] Log - Thông báo lỗi: [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+[INFO] 15-03-2026 12:16:04 [main] Log - Test case testBlockLogin is passed.
+[INFO] 15-03-2026 12:16:05 [main] Log - Running test case testLoginWhenLoginBlock
+[INFO] 15-03-2026 12:16:52 [main] Log - Thông báo lỗi: []
+[ERROR] 15-03-2026 12:16:52 [main] Log - Test case testLoginWhenLoginBlock is failed.
+[ERROR] 15-03-2026 12:16:52 [main] Log - java.lang.AssertionError: Lỗi mong muốn không tìm thấy: Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+Thông báo thực tế: [] expected [true] but found [false]
+[INFO] 15-03-2026 12:16:53 [main] Log - Running test case testLoginWithPassSQLInjection
+[ERROR] 15-03-2026 12:19:10 [main] Log - Hết thời gian chờ phần tử có thể click: Proxy element for: AjaxElementLocator 'By.xpath: //a[normalize-space()='Login']'
+[ERROR] 15-03-2026 12:19:55 [main] Log - Test case testLoginWithPassSQLInjection is failed.
+[ERROR] 15-03-2026 12:19:55 [main] Log - java.lang.RuntimeException: Không thể tìm thấy phần tử có thể click: Proxy element for: AjaxElementLocator 'By.xpath: //a[normalize-space()='Login']'
+[INFO] 15-03-2026 12:19:57 [main] Log - Khởi tạo trình duyệt: chrome
+[INFO] 15-03-2026 12:19:59 [main] Log - Running test case registerSuccess
+[INFO] 15-03-2026 12:20:00 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:20:00 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:20:00 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 15-03-2026 12:20:01 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 15-03-2026 12:20:04 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:20:04 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:20:04 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 15-03-2026 12:20:05 [main] Log - Test case registerSuccess is passed.
+[INFO] 15-03-2026 12:20:06 [main] Log - Running test case registerSuccess
+[INFO] 15-03-2026 12:20:07 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:20:07 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:20:07 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 15-03-2026 12:20:07 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 15-03-2026 12:20:09 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:20:09 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:20:09 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 15-03-2026 12:20:09 [main] Log - Test case registerSuccess is passed.
+[INFO] 15-03-2026 12:20:11 [main] Log - Running test case registerNegativeBoundary
+[INFO] 15-03-2026 12:20:11 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 15-03-2026 12:20:12 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 15-03-2026 12:20:58 [main] Log - Thông báo lỗi: [First Name must be between 1 and 32 characters!]
+[INFO] 15-03-2026 12:20:58 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 15-03-2026 12:21:00 [main] Log - Running test case registerNegativeBoundary
+[INFO] 15-03-2026 12:21:00 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 15-03-2026 12:21:01 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 15-03-2026 12:21:47 [main] Log - Thông báo lỗi: [First Name must be between 1 and 32 characters!]
+[INFO] 15-03-2026 12:21:47 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 15-03-2026 12:21:49 [main] Log - Running test case registerNegativeBoundary
+[INFO] 15-03-2026 12:21:49 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 15-03-2026 12:21:50 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 15-03-2026 12:22:36 [main] Log - Thông báo lỗi: [Telephone must be between 3 and 32 characters!]
+[INFO] 15-03-2026 12:22:36 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 15-03-2026 12:22:37 [main] Log - Running test case registerNegativeBoundary
+[INFO] 15-03-2026 12:22:38 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 15-03-2026 12:22:38 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 15-03-2026 12:23:25 [main] Log - Thông báo lỗi: [E-Mail Address does not appear to be valid!]
+[INFO] 15-03-2026 12:23:25 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 15-03-2026 12:23:26 [main] Log - Running test case registerNegativeBoundary
+[INFO] 15-03-2026 12:23:26 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 15-03-2026 12:23:27 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 15-03-2026 12:24:13 [main] Log - Thông báo lỗi: [Warning: E-Mail Address is already registered!]
+[INFO] 15-03-2026 12:24:13 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 15-03-2026 12:24:15 [main] Log - Running test case registerNegativeBoundary
+[INFO] 15-03-2026 12:24:16 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 15-03-2026 12:24:17 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 15-03-2026 12:24:20 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 15-03-2026 12:25:52 [main] Log - Thông báo lỗi: []
+[ERROR] 15-03-2026 12:25:52 [main] Log - Test case registerNegativeBoundary is failed.
+[ERROR] 15-03-2026 12:25:52 [main] Log - java.lang.AssertionError: Lỗi mong muốn không tìm thấy: Telephone must be between 3 and 32 characters!
+Thông báo thực tế: [] expected [true] but found [false]
+[INFO] 15-03-2026 12:25:58 [main] Log - Running test case registerNegativeBoundary
+[INFO] 15-03-2026 12:26:00 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 15-03-2026 12:26:01 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 15-03-2026 12:26:03 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 15-03-2026 12:27:35 [main] Log - Thông báo lỗi: []
+[ERROR] 15-03-2026 12:27:35 [main] Log - Test case registerNegativeBoundary is failed.
+[ERROR] 15-03-2026 12:27:35 [main] Log - java.lang.AssertionError: Lỗi mong muốn không tìm thấy: E-Mail Address does not appear to be valid!
+Thông báo thực tế: [] expected [true] but found [false]
+[INFO] 15-03-2026 12:27:39 [main] Log - Running test case registerNegativeBoundary
+[INFO] 15-03-2026 12:27:41 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 15-03-2026 12:27:41 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (dc71e99da1b45383a428d8fac28fea43)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 15-03-2026 12:28:28 [main] Log - Thông báo lỗi: [Password confirmation does not match password!]
+[INFO] 15-03-2026 12:28:28 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 15-03-2026 12:28:30 [main] Log - Khởi tạo trình duyệt: chrome
+[INFO] 15-03-2026 12:28:38 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (0ff81e86c66409c02986e2454bd9120e)] -> xpath: (//a[normalize-space()='MacBook'])[1]]
+[INFO] 15-03-2026 12:28:41 [main] Log - Running test case verifyProductsAddedToCart
+[INFO] 15-03-2026 12:28:41 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:28:41 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:28:41 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:28:41 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:28:41 [main] Log - Test case verifyProductsAddedToCart is passed.
+[INFO] 15-03-2026 12:28:42 [main] Log - Running test case verifyUpdateQuantityUpdatesTotalPrice
+[INFO] 15-03-2026 12:28:43 [main] Log - Đang xác thực giá trị bằng nhau...
+ - Thực tế: 1324.0
+ - Kỳ vọng: 1324.0
+[INFO] 15-03-2026 12:28:43 [main] Log - Test case verifyUpdateQuantityUpdatesTotalPrice is passed.
+[INFO] 15-03-2026 12:28:45 [main] Log - Running test case verifyRemoveProduct
+[INFO] 15-03-2026 12:29:00 [main] Log - Test case verifyRemoveProduct is passed.
+[INFO] 15-03-2026 12:29:02 [main] Log - Running test case verifyReloadKeepsCartState
+[INFO] 15-03-2026 12:29:03 [main] Log - Đang xác thực giá trị bằng nhau...
+ - Thực tế: 3
+ - Kỳ vọng: 3
+[INFO] 15-03-2026 12:29:03 [main] Log - Test case verifyReloadKeepsCartState is passed.
+[INFO] 15-03-2026 12:29:04 [main] Log - Running test case verifyQuantityOverflow
+[INFO] 15-03-2026 12:29:05 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:29:05 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:29:05 [main] Log - Test case verifyQuantityOverflow is passed.
+[INFO] 15-03-2026 12:29:06 [main] Log - Running test case verifyQuantityZero
+[INFO] 15-03-2026 12:29:22 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:29:22 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:29:22 [main] Log - Test case verifyQuantityZero is passed.
+[INFO] 15-03-2026 12:29:23 [main] Log - Running test case verifyNegativeQuantity
+[INFO] 15-03-2026 12:29:39 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (0ff81e86c66409c02986e2454bd9120e)] -> xpath: (//a[normalize-space()='MacBook'])[1]]
+[INFO] 15-03-2026 12:29:56 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:29:56 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:29:56 [main] Log - Test case verifyNegativeQuantity is passed.
+[INFO] 15-03-2026 12:29:57 [main] Log - Running test case verifyInvalidQuantityText
+[INFO] 15-03-2026 12:30:13 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (0ff81e86c66409c02986e2454bd9120e)] -> xpath: (//a[normalize-space()='MacBook'])[1]]
+[INFO] 15-03-2026 12:30:30 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:30:30 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:30:30 [main] Log - Test case verifyInvalidQuantityText is passed.
+[INFO] 15-03-2026 12:30:31 [main] Log - Running test case verifyCartTotalPrice
+[INFO] 15-03-2026 12:30:47 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (0ff81e86c66409c02986e2454bd9120e)] -> xpath: (//a[normalize-space()='MacBook'])[1]]
+[INFO] 15-03-2026 12:30:49 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (0ff81e86c66409c02986e2454bd9120e)] -> xpath: //strong[text()='Sub-Total:']/parent::td/following-sibling::td]
+[INFO] 15-03-2026 12:30:49 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:30:49 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:30:49 [main] Log - Test case verifyCartTotalPrice is passed.
+[INFO] 15-03-2026 12:30:52 [main] Log - Khởi tạo trình duyệt: chrome
+[INFO] 15-03-2026 12:30:54 [main] Log - Running test case guestCheckoutSuccess
+[INFO] 15-03-2026 12:30:58 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (4c8d045e5bcf520558574d4720f52eb7)] -> id: input-payment-firstname]
+[INFO] 15-03-2026 12:31:03 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:31:03 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:31:05 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:31:05 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:31:05 [main] Log - Test case guestCheckoutSuccess is passed.
+[INFO] 15-03-2026 12:31:07 [main] Log - Running test case checkoutFailWithoutAgree
+[INFO] 15-03-2026 12:31:11 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (4c8d045e5bcf520558574d4720f52eb7)] -> id: input-payment-firstname]
+[INFO] 15-03-2026 12:31:15 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:31:15 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:31:15 [main] Log - Test case checkoutFailWithoutAgree is passed.
+[INFO] 15-03-2026 12:31:17 [main] Log - Running test case checkoutFailInvailEmailAndPhone
+[INFO] 15-03-2026 12:31:19 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (4c8d045e5bcf520558574d4720f52eb7)] -> id: input-payment-firstname]
+[ERROR] 15-03-2026 12:32:07 [main] Log - Test case checkoutFailInvailEmailAndPhone is failed.
+[ERROR] 15-03-2026 12:32:07 [main] Log - org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Unable to locate the element
+[INFO] 15-03-2026 12:32:09 [main] Log - Running test case checkoutWithAccountSuccess
+[INFO] 15-03-2026 12:32:20 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:32:20 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:32:21 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:32:21 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:32:21 [main] Log - Test case checkoutWithAccountSuccess is passed.
+[INFO] 15-03-2026 12:32:24 [main] Log - Khởi tạo trình duyệt: chrome
+[INFO] 15-03-2026 12:32:29 [main] Log - Running test case searchValidKeyword
+[INFO] 15-03-2026 12:32:29 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:32:29 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:32:29 [main] Log - Test case searchValidKeyword is passed.
+[INFO] 15-03-2026 12:32:31 [main] Log - Running test case searchValidKeyword
+[INFO] 15-03-2026 12:32:32 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:32:32 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:32:32 [main] Log - Test case searchValidKeyword is passed.
+[INFO] 15-03-2026 12:32:33 [main] Log - Running test case filterFromCategory
+[INFO] 15-03-2026 12:32:34 [main] Log - Đang xác thực giá trị đúng...
+
+[ERROR] 15-03-2026 12:32:34 [main] Log - Test case filterFromCategory is failed.
+[ERROR] 15-03-2026 12:32:34 [main] Log - java.lang.RuntimeException: Kiểm tra thất bại: Lỗi: Lọc theo danh mục không hiện sản phẩm
+[INFO] 15-03-2026 12:32:35 [main] Log - Running test case searchInvalidKeyword
+[INFO] 15-03-2026 12:32:36 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:32:36 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:32:36 [main] Log - Test case searchInvalidKeyword is passed.
+[INFO] 15-03-2026 12:32:37 [main] Log - Running test case searchInvalidKeyword
+[INFO] 15-03-2026 12:32:38 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:32:38 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:32:38 [main] Log - Test case searchInvalidKeyword is passed.
+[INFO] 15-03-2026 12:32:39 [main] Log - Running test case filterProduct
+[INFO] 15-03-2026 12:32:40 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:32:40 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:32:40 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:32:40 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:32:41 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:32:41 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:32:41 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 15-03-2026 12:32:41 [main] Log - Giá trị đúng
+[INFO] 15-03-2026 12:32:41 [main] Log - Test case filterProduct is passed.
+[INFO] 15-03-2026 12:32:43 [main] Log - End testing OpenCart Tests
+[INFO] 16-03-2026 08:11:50 [main] Log - Kh?i t?o tr�nh duy?t: chrome
+[INFO] 16-03-2026 08:12:00 [main] Log - Running test case searchValidKeyword
+[ERROR] 16-03-2026 08:12:00 [main] Log - Test case searchValidKeyword is skipped.
+[ERROR] 16-03-2026 08:12:00 [main] Log - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1961277780bcd712826f8300d3aeaf6d, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59548}, goog:processID: 13332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59548/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1961277780bcd712826f8300d3aeaf6d
+[INFO] 16-03-2026 08:12:03 [main] Log - Running test case searchValidKeyword
+[ERROR] 16-03-2026 08:12:03 [main] Log - Test case searchValidKeyword is skipped.
+[ERROR] 16-03-2026 08:12:03 [main] Log - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1961277780bcd712826f8300d3aeaf6d, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59548}, goog:processID: 13332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59548/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1961277780bcd712826f8300d3aeaf6d
+[INFO] 16-03-2026 08:12:04 [main] Log - Running test case filterFromCategory
+[ERROR] 16-03-2026 08:12:04 [main] Log - Test case filterFromCategory is skipped.
+[ERROR] 16-03-2026 08:12:04 [main] Log - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1961277780bcd712826f8300d3aeaf6d, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59548}, goog:processID: 13332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59548/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1961277780bcd712826f8300d3aeaf6d
+[INFO] 16-03-2026 08:12:06 [main] Log - Running test case searchInvalidKeyword
+[ERROR] 16-03-2026 08:12:06 [main] Log - Test case searchInvalidKeyword is skipped.
+[ERROR] 16-03-2026 08:12:06 [main] Log - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1961277780bcd712826f8300d3aeaf6d, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59548}, goog:processID: 13332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59548/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1961277780bcd712826f8300d3aeaf6d
+[INFO] 16-03-2026 08:12:07 [main] Log - Running test case searchInvalidKeyword
+[ERROR] 16-03-2026 08:12:07 [main] Log - Test case searchInvalidKeyword is skipped.
+[ERROR] 16-03-2026 08:12:07 [main] Log - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1961277780bcd712826f8300d3aeaf6d, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59548}, goog:processID: 13332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59548/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1961277780bcd712826f8300d3aeaf6d
+[INFO] 16-03-2026 08:12:08 [main] Log - Running test case filterProduct
+[ERROR] 16-03-2026 08:12:08 [main] Log - Test case filterProduct is skipped.
+[ERROR] 16-03-2026 08:12:08 [main] Log - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.162)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1961277780bcd712826f8300d3aeaf6d, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59548}, goog:processID: 13332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59548/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1961277780bcd712826f8300d3aeaf6d
+[INFO] 16-03-2026 08:14:33 [main] Log - Kh?i t?o tr�nh duy?t: chrome
+[INFO] 16-03-2026 08:14:39 [main] Log - Running test case searchValidKeyword
+[INFO] 16-03-2026 08:14:41 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:14:41 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:14:41 [main] Log - Test case searchValidKeyword is passed.
+[INFO] 16-03-2026 08:14:42 [main] Log - Running test case searchValidKeyword
+[INFO] 16-03-2026 08:14:43 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:14:43 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:14:43 [main] Log - Test case searchValidKeyword is passed.
+[INFO] 16-03-2026 08:14:44 [main] Log - Running test case filterFromCategory
+[INFO] 16-03-2026 08:14:46 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[ERROR] 16-03-2026 08:14:46 [main] Log - Test case filterFromCategory is failed.
+[ERROR] 16-03-2026 08:14:46 [main] Log - java.lang.RuntimeException: Ki?m tra th?t b?i: L?i: L?c theo danh m?c kh�ng hi?n s?n ph?m
+[INFO] 16-03-2026 08:14:47 [main] Log - Running test case searchInvalidKeyword
+[INFO] 16-03-2026 08:14:48 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:14:48 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:14:48 [main] Log - Test case searchInvalidKeyword is passed.
+[INFO] 16-03-2026 08:14:49 [main] Log - Running test case searchInvalidKeyword
+[INFO] 16-03-2026 08:16:54 [main] Log - Kh?i t?o tr�nh duy?t: chrome
+[INFO] 16-03-2026 08:16:59 [main] Log - Running test case registerSuccess
+[INFO] 16-03-2026 08:17:01 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:17:01 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:17:01 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (720dd4de101c78a23ec4633664771bc6)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:17:02 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (720dd4de101c78a23ec4633664771bc6)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:17:06 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:17:06 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:17:06 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (720dd4de101c78a23ec4633664771bc6)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 16-03-2026 08:17:07 [main] Log - Test case registerSuccess is passed.
+[INFO] 16-03-2026 08:17:11 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:17:12 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (720dd4de101c78a23ec4633664771bc6)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:17:13 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (720dd4de101c78a23ec4633664771bc6)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:20:31 [main] Log - Kh?i t?o tr�nh duy?t: chrome
+[INFO] 16-03-2026 08:20:39 [main] Log - Running test case registerSuccess
+[INFO] 16-03-2026 08:20:40 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:20:40 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:20:40 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (abc708f36f64fe15baf46d8e58f5a0da)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:20:43 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (abc708f36f64fe15baf46d8e58f5a0da)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:20:46 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:20:46 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:20:46 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (abc708f36f64fe15baf46d8e58f5a0da)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 16-03-2026 08:20:47 [main] Log - Test case registerSuccess is passed.
+[INFO] 16-03-2026 08:20:58 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:21:06 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (abc708f36f64fe15baf46d8e58f5a0da)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:21:07 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (abc708f36f64fe15baf46d8e58f5a0da)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:24:37 [main] Log - Kh?i t?o tr�nh duy?t: chrome
+[INFO] 16-03-2026 08:24:42 [main] Log - Running test case registerSuccess
+[INFO] 16-03-2026 08:24:44 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:24:44 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:24:44 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:24:44 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:24:46 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:24:46 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:24:46 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 16-03-2026 08:24:47 [main] Log - Test case registerSuccess is passed.
+[INFO] 16-03-2026 08:24:50 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:24:50 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:24:51 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:24:53 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 16-03-2026 08:26:25 [main] Log - Th�ng b�o l?i: []
+[ERROR] 16-03-2026 08:26:25 [main] Log - Test case registerNegativeBoundary is failed.
+[ERROR] 16-03-2026 08:26:25 [main] Log - java.lang.AssertionError: L?i mong mu?n kh�ng t�m th?y: Password must be between 6 and 32 characters!
+Th�ng b�o th?c t?: [] expected [true] but found [false]
+[INFO] 16-03-2026 08:26:27 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:26:28 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:26:29 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:27:15 [main] Log - Th�ng b�o l?i: [First Name must be between 1 and 32 characters!]
+[INFO] 16-03-2026 08:27:15 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 16-03-2026 08:27:16 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:27:17 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:27:18 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:28:04 [main] Log - Th�ng b�o l?i: [Telephone must be between 3 and 32 characters!]
+[INFO] 16-03-2026 08:28:04 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 16-03-2026 08:28:05 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:28:06 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:28:06 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:28:53 [main] Log - Th�ng b�o l?i: [E-Mail Address does not appear to be valid!]
+[INFO] 16-03-2026 08:28:53 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 16-03-2026 08:28:54 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:28:55 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:28:55 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:29:42 [main] Log - Th�ng b�o l?i: [Warning: E-Mail Address is already registered!]
+[INFO] 16-03-2026 08:29:42 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 16-03-2026 08:29:43 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:29:44 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:29:44 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:31:16 [main] Log - Th�ng b�o l?i: []
+[ERROR] 16-03-2026 08:31:16 [main] Log - Test case registerNegativeBoundary is failed.
+[ERROR] 16-03-2026 08:31:17 [main] Log - java.lang.AssertionError: L?i mong mu?n kh�ng t�m th?y: Telephone must be between 3 and 32 characters!
+Th�ng b�o th?c t?: [] expected [true] but found [false]
+[INFO] 16-03-2026 08:31:18 [main] Log - Running test case registerNegativeBoundary
+[ERROR] 16-03-2026 08:33:35 [main] Log - H?t th?i gian ch? ph?n t? c� th? click: Proxy element for: AjaxElementLocator 'By.xpath: //a[normalize-space()='Register']'
+[ERROR] 16-03-2026 08:33:38 [main] Log - Test case registerNegativeBoundary is failed.
+[ERROR] 16-03-2026 08:33:38 [main] Log - java.lang.RuntimeException: Kh�ng th? t�m th?y ph?n t? c� th? click: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //a[normalize-space()='Register']]
+[INFO] 16-03-2026 08:33:44 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:33:45 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:33:45 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (d05883e575056d96f4f47eefd59f4abc)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:34:32 [main] Log - Th�ng b�o l?i: [Password confirmation does not match password!]
+[INFO] 16-03-2026 08:34:32 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 16-03-2026 08:34:34 [main] Log - Kh?i t?o tr�nh duy?t: chrome
+[INFO] 16-03-2026 08:34:36 [main] Log - Running test case testLoginSuccess
+[INFO] 16-03-2026 08:34:38 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[ERROR] 16-03-2026 08:34:38 [main] Log - Test case testLoginSuccess is failed.
+[ERROR] 16-03-2026 08:34:39 [main] Log - java.lang.RuntimeException: Ki?m tra th?t b?i: ??ng nh?p t�i kho?n th?t b?i!
+[INFO] 16-03-2026 08:34:40 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 16-03-2026 08:39:04 [main] Log - Kh?i t?o tr�nh duy?t: chrome
+[INFO] 16-03-2026 08:39:10 [main] Log - Running test case testLoginSuccess
+[INFO] 16-03-2026 08:39:12 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:39:12 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:39:12 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (f74912fe34c7531a601d1144740a59a6)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 16-03-2026 08:39:12 [main] Log - Test case testLoginSuccess is passed.
+[INFO] 16-03-2026 08:39:14 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 16-03-2026 08:39:15 [main] Log - Th�ng b�o l?i: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 16-03-2026 08:39:15 [main] Log - Test case testLoginNegativeBoundary is passed.
+[INFO] 16-03-2026 08:39:17 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 16-03-2026 08:39:18 [main] Log - Th�ng b�o l?i: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 16-03-2026 08:39:18 [main] Log - Test case testLoginNegativeBoundary is passed.
+[INFO] 16-03-2026 08:39:19 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 16-03-2026 08:39:21 [main] Log - Th�ng b�o l?i: [Warning: No match for E-Mail Address and/or Password.]
+[ERROR] 16-03-2026 08:39:21 [main] Log - Test case testLoginNegativeBoundary is failed.
+[ERROR] 16-03-2026 08:39:21 [main] Log - java.lang.AssertionError: L?i mong mu?n kh�ng t�m th?y: Password must not be empty
+Th�ng b�o th?c t?: [Warning: No match for E-Mail Address and/or Password.] expected [true] but found [false]
+[INFO] 16-03-2026 08:39:23 [main] Log - Running test case testBlockLogin
+[INFO] 16-03-2026 08:39:24 [main] Log - Th�ng b�o l?i: [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+[INFO] 16-03-2026 08:39:24 [main] Log - Test case testBlockLogin is passed.
+[INFO] 16-03-2026 08:39:25 [main] Log - Running test case testLoginWhenLoginBlock
+[INFO] 16-03-2026 08:39:27 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (f74912fe34c7531a601d1144740a59a6)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 16-03-2026 08:39:27 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[ERROR] 16-03-2026 08:39:27 [main] Log - Test case testLoginWhenLoginBlock is failed.
+[ERROR] 16-03-2026 08:39:27 [main] Log - java.lang.RuntimeException: Ki?m tra th?t b?i: L?i: Login b? kh�a v?n ??ng nh?p ???c
+[INFO] 16-03-2026 08:39:29 [main] Log - Running test case testLoginWithPassSQLInjection
+[INFO] 16-03-2026 08:39:30 [main] Log - Th�ng b�o l?i: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 16-03-2026 08:39:30 [main] Log - Test case testLoginWithPassSQLInjection is passed.
+[INFO] 16-03-2026 08:39:32 [main] Log - Kh?i t?o tr�nh duy?t: chrome
+[INFO] 16-03-2026 08:39:34 [main] Log - Running test case registerSuccess
+[INFO] 16-03-2026 08:39:35 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:39:35 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:39:35 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:39:36 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:39:37 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:39:37 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:39:37 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 16-03-2026 08:39:37 [main] Log - Test case registerSuccess is passed.
+[INFO] 16-03-2026 08:39:39 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:39:40 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:39:41 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:39:42 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 16-03-2026 08:41:13 [main] Log - Th�ng b�o l?i: []
+[ERROR] 16-03-2026 08:41:13 [main] Log - Test case registerNegativeBoundary is failed.
+[ERROR] 16-03-2026 08:41:13 [main] Log - java.lang.AssertionError: L?i mong mu?n kh�ng t�m th?y: Password must be between 6 and 32 characters!
+Th�ng b�o th?c t?: [] expected [true] but found [false]
+[INFO] 16-03-2026 08:41:15 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:41:16 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:41:17 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:42:03 [main] Log - Th�ng b�o l?i: [First Name must be between 1 and 32 characters!]
+[INFO] 16-03-2026 08:42:03 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 16-03-2026 08:42:05 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:42:05 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:42:06 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:42:52 [main] Log - Th�ng b�o l?i: [Telephone must be between 3 and 32 characters!]
+[INFO] 16-03-2026 08:42:52 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 16-03-2026 08:42:54 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:42:54 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:42:55 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:43:41 [main] Log - Th�ng b�o l?i: [E-Mail Address does not appear to be valid!]
+[INFO] 16-03-2026 08:43:41 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 16-03-2026 08:43:43 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:43:43 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:43:44 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:44:30 [main] Log - Th�ng b�o l?i: [Warning: E-Mail Address is already registered!]
+[INFO] 16-03-2026 08:44:30 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 16-03-2026 08:44:32 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:44:32 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:44:33 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:44:35 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 16-03-2026 08:46:06 [main] Log - Th�ng b�o l?i: []
+[ERROR] 16-03-2026 08:46:06 [main] Log - Test case registerNegativeBoundary is failed.
+[ERROR] 16-03-2026 08:46:06 [main] Log - java.lang.AssertionError: L?i mong mu?n kh�ng t�m th?y: Telephone must be between 3 and 32 characters!
+Th�ng b�o th?c t?: [] expected [true] but found [false]
+[INFO] 16-03-2026 08:46:08 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:46:08 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:46:09 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:46:11 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 16-03-2026 08:47:42 [main] Log - Th�ng b�o l?i: []
+[ERROR] 16-03-2026 08:47:42 [main] Log - Test case registerNegativeBoundary is failed.
+[ERROR] 16-03-2026 08:47:42 [main] Log - java.lang.AssertionError: L?i mong mu?n kh�ng t�m th?y: E-Mail Address does not appear to be valid!
+Th�ng b�o th?c t?: [] expected [true] but found [false]
+[INFO] 16-03-2026 08:47:44 [main] Log - Running test case registerNegativeBoundary
+[INFO] 16-03-2026 08:47:44 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 16-03-2026 08:47:45 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (c91bb30418866834629a87b6a402dd64)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 16-03-2026 08:48:31 [main] Log - Th�ng b�o l?i: [Password confirmation does not match password!]
+[INFO] 16-03-2026 08:48:31 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 16-03-2026 08:48:33 [main] Log - Kh?i t?o tr�nh duy?t: chrome
+[INFO] 16-03-2026 08:48:39 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (85f1a4120742f47c1d00ae47f6bc4d53)] -> xpath: (//a[normalize-space()='MacBook'])[1]]
+[INFO] 16-03-2026 08:48:41 [main] Log - Running test case verifyProductsAddedToCart
+[INFO] 16-03-2026 08:48:41 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:48:41 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:48:41 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:48:41 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:48:41 [main] Log - Test case verifyProductsAddedToCart is passed.
+[INFO] 16-03-2026 08:48:42 [main] Log - Running test case verifyUpdateQuantityUpdatesTotalPrice
+[ERROR] 16-03-2026 08:48:57 [main] Log - Test case verifyUpdateQuantityUpdatesTotalPrice is failed.
+[ERROR] 16-03-2026 08:48:57 [main] Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='table-responsive']//tbody/tr[.//a[normalize-space()='MacBook']]"}
+  (Session info: chrome=145.0.7632.162)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f1a4120742f47c1d00ae47f6bc4d53, findElement {value=//div[@class='table-responsive']//tbody/tr[.//a[normalize-space()='MacBook']], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51405}, goog:processID: 9240, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51405/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f1a4120742f47c1d00ae47f6bc4d53
+[INFO] 16-03-2026 08:48:58 [main] Log - Running test case verifyRemoveProduct
+[ERROR] 16-03-2026 08:49:13 [main] Log - Test case verifyRemoveProduct is failed.
+[ERROR] 16-03-2026 08:49:14 [main] Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='table-responsive']//tbody/tr[.//a[normalize-space()='iMac']]"}
+  (Session info: chrome=145.0.7632.162)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f1a4120742f47c1d00ae47f6bc4d53, findElement {value=//div[@class='table-responsive']//tbody/tr[.//a[normalize-space()='iMac']], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51405}, goog:processID: 9240, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51405/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f1a4120742f47c1d00ae47f6bc4d53
+[INFO] 16-03-2026 08:49:15 [main] Log - Running test case verifyReloadKeepsCartState
+[ERROR] 16-03-2026 08:49:30 [main] Log - Test case verifyReloadKeepsCartState is failed.
+[ERROR] 16-03-2026 08:49:30 [main] Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='table-responsive']//tbody/tr[.//a[normalize-space()='MacBook']]"}
+  (Session info: chrome=145.0.7632.162)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f1a4120742f47c1d00ae47f6bc4d53, findElement {value=//div[@class='table-responsive']//tbody/tr[.//a[normalize-space()='MacBook']], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51405}, goog:processID: 9240, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51405/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f1a4120742f47c1d00ae47f6bc4d53
+[INFO] 16-03-2026 08:49:32 [main] Log - Running test case verifyQuantityOverflow
+[ERROR] 16-03-2026 08:49:47 [main] Log - Test case verifyQuantityOverflow is failed.
+[ERROR] 16-03-2026 08:49:47 [main] Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='table-responsive']//tbody/tr[.//a[normalize-space()='MacBook']]"}
+  (Session info: chrome=145.0.7632.162)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f1a4120742f47c1d00ae47f6bc4d53, findElement {value=//div[@class='table-responsive']//tbody/tr[.//a[normalize-space()='MacBook']], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51405}, goog:processID: 9240, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51405/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f1a4120742f47c1d00ae47f6bc4d53
+[INFO] 16-03-2026 08:49:48 [main] Log - Running test case verifyQuantityZero
+[ERROR] 16-03-2026 08:50:03 [main] Log - Test case verifyQuantityZero is failed.
+[ERROR] 16-03-2026 08:50:03 [main] Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='table-responsive']//tbody/tr[.//a[normalize-space()='MacBook']]"}
+  (Session info: chrome=145.0.7632.162)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85f1a4120742f47c1d00ae47f6bc4d53, findElement {value=//div[@class='table-responsive']//tbody/tr[.//a[normalize-space()='MacBook']], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.162, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51405}, goog:processID: 9240, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51405/devtoo..., se:cdpVersion: 145.0.7632.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85f1a4120742f47c1d00ae47f6bc4d53
+[INFO] 16-03-2026 08:50:05 [main] Log - Running test case verifyNegativeQuantity
+[INFO] 16-03-2026 08:54:15 [main] Log - Kh?i t?o tr�nh duy?t: chrome
+[INFO] 16-03-2026 08:54:21 [main] Log - Running test case testLoginSuccess
+[INFO] 16-03-2026 08:54:23 [main] Log - ?ang x�c th?c gi� tr? ?�ng...
+
+[INFO] 16-03-2026 08:54:23 [main] Log - Gi� tr? ?�ng
+[INFO] 16-03-2026 08:54:23 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (3436abaac07ec0d880a4541c4dd81d13)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 16-03-2026 08:54:23 [main] Log - Test case testLoginSuccess is passed.
+[INFO] 16-03-2026 08:54:25 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 16-03-2026 08:54:26 [main] Log - Th�ng b�o l?i: [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+[ERROR] 16-03-2026 08:54:26 [main] Log - Test case testLoginNegativeBoundary is failed.
+[ERROR] 16-03-2026 08:54:27 [main] Log - java.lang.AssertionError: L?i mong mu?n kh�ng t�m th?y: Warning: No match for E-Mail Address and/or Password.
+Th�ng b�o th?c t?: [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] expected [true] but found [false]
+[INFO] 16-03-2026 08:54:28 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 16-03-2026 08:54:29 [main] Log - Th�ng b�o l?i: [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+[ERROR] 16-03-2026 08:54:29 [main] Log - Test case testLoginNegativeBoundary is failed.
+[ERROR] 16-03-2026 08:54:30 [main] Log - java.lang.AssertionError: L?i mong mu?n kh�ng t�m th?y: Warning: No match for E-Mail Address and/or Password.
+Th�ng b�o th?c t?: [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] expected [true] but found [false]
+[INFO] 16-03-2026 08:54:31 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 16-03-2026 08:54:32 [main] Log - Th�ng b�o l?i: [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+[ERROR] 16-03-2026 08:54:32 [main] Log - Test case testLoginNegativeBoundary is failed.
+[ERROR] 16-03-2026 08:54:32 [main] Log - java.lang.AssertionError: L?i mong mu?n kh�ng t�m th?y: Password must not be empty
+Th�ng b�o th?c t?: [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] expected [true] but found [false]
+[INFO] 16-03-2026 08:54:34 [main] Log - Running test case testBlockLogin
+[INFO] 16-03-2026 08:54:35 [main] Log - Th�ng b�o l?i: [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+[INFO] 16-03-2026 08:54:35 [main] Log - Test case testBlockLogin is passed.
+[INFO] 16-03-2026 08:54:37 [main] Log - Running test case testLoginWhenLoginBlock
+[INFO] 16-03-2026 08:54:38 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (3436abaac07ec0d880a4541c4dd81d13)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]

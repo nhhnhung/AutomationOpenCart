@@ -1,1 +1,0 @@
-checkoutFailInvailEmailAndPhone is failed.
