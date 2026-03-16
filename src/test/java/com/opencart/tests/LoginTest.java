@@ -2,6 +2,7 @@ package com.opencart.tests;
 
 import Data.DataProviderFactory;
 import com.opencart.base.BaseTest;
+import com.opencart.helpers.DatabaseHelper;
 import com.opencart.pages.LoginPage;
 import io.qameta.allure.*;
 import listeners.ReportListener;
@@ -67,9 +68,9 @@ public class LoginTest extends BaseTest {
     public void testBlockLogin() {
         loginPage.openMyAccountMenu();
         loginPage.clickLogin();
-        for (int i = 0; i < 3; i++) {
-            loginPage.clickBTNLogin();
+        for (int i = 0; i < 6; i++) {
             loginPage.waitForPageLoaded();
+            loginPage.clickBTNLogin();
         }
         loginPage.verifyErrorMessage("Your account has exceeded");
     }

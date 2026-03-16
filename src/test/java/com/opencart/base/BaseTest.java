@@ -2,6 +2,7 @@ package com.opencart.base;
 
 
 import com.opencart.helpers.CaptureHelper;
+import com.opencart.helpers.DatabaseHelper;
 import com.opencart.helpers.PropertiesHelper;
 import com.opencart.utils.Log;
 import org.openqa.selenium.WebDriver;
@@ -21,6 +22,7 @@ public class BaseTest {
 
     @BeforeClass
     public void createDriver() {
+        DatabaseHelper.resetLoginAttempt();
         PropertiesHelper.loadAllFiles();
         String browser = PropertiesHelper.getValue("browser");
         URL = PropertiesHelper.getValue("url");
