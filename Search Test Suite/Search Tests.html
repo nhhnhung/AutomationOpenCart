@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Search Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Mar 15 11:02:20 ICT 2026</td>
+<td>Started on:</td><td>Mon Mar 16 10:48:32 ICT 2026</td>
 </tr>
-<tr><td>Total time:</td><td>35 seconds (35712 ms)</td>
+<tr><td>Total time:</td><td>28 seconds (28327 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -80,8 +80,8 @@ function toggleAllBoxes() {
 	at com.opencart.base.BasePage.assertTrue(BasePage.java:141)
 	at com.opencart.tests.SearchTest.filterFromCategory(SearchTest.java:65)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1008561904", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1008561904'><pre>java.lang.RuntimeException: Ki?m tra th?t b?i: L?i: L?c theo danh m?c không hi?n s?n ph?m
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1338109669", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1338109669'><pre>java.lang.RuntimeException: Ki?m tra th?t b?i: L?i: L?c theo danh m?c không hi?n s?n ph?m
 	at com.opencart.base.BasePage.assertTrue(BasePage.java:141)
 	at com.opencart.tests.SearchTest.filterFromCategory(SearchTest.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -118,7 +118,7 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>1</td>
-<td>com.opencart.tests.SearchTest@5116ac09</td></tr>
+<td>com.opencart.tests.SearchTest@322803db</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -128,40 +128,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.opencart.tests.SearchTest.searchValidKeyword()'><b>searchValidKeyword</b><br>Test class: com.opencart.tests.SearchTest<br>Parameters: HAPPY, macbook</td>
+<td title='com.opencart.tests.SearchTest.searchInvalidKeyword()'><b>searchInvalidKeyword</b><br>Test class: com.opencart.tests.SearchTest<br>Parameters: NEGATIVE, 12345</td>
 <td></td>
 <td>0</td>
-<td>com.opencart.tests.SearchTest@5116ac09</td></tr>
-<tr>
-<td title='com.opencart.tests.SearchTest.filterProduct()'><b>filterProduct</b><br>Test class: com.opencart.tests.SearchTest</td>
-<td></td>
-<td>2</td>
-<td>com.opencart.tests.SearchTest@5116ac09</td></tr>
-<tr>
-<td title='com.opencart.tests.SearchTest.searchValidKeyword()'><b>searchValidKeyword</b><br>Test class: com.opencart.tests.SearchTest<br>Parameters: HAPPY, iPhone</td>
-<td></td>
-<td>1</td>
-<td>com.opencart.tests.SearchTest@5116ac09</td></tr>
-<tr>
-<td title='com.opencart.tests.SearchTest.searchValidKeyword()'><b>searchValidKeyword</b><br>Test class: com.opencart.tests.SearchTest<br>Parameters: HAPPY, Phone</td>
-<td></td>
-<td>0</td>
-<td>com.opencart.tests.SearchTest@5116ac09</td></tr>
-<tr>
-<td title='com.opencart.tests.SearchTest.searchInvalidKeyword()'><b>searchInvalidKeyword</b><br>Test class: com.opencart.tests.SearchTest<br>Parameters: NEGATIVE, iPh0ne</td>
-<td></td>
-<td>0</td>
-<td>com.opencart.tests.SearchTest@5116ac09</td></tr>
-<tr>
-<td title='com.opencart.tests.SearchTest.searchInvalidKeyword()'><b>searchInvalidKeyword</b><br>Test class: com.opencart.tests.SearchTest<br>Parameters: NEGATIVE, LG</td>
-<td></td>
-<td>0</td>
-<td>com.opencart.tests.SearchTest@5116ac09</td></tr>
+<td>com.opencart.tests.SearchTest@322803db</td></tr>
 <tr>
 <td title='com.opencart.tests.SearchTest.searchInvalidKeyword()'><b>searchInvalidKeyword</b><br>Test class: com.opencart.tests.SearchTest<br>Parameters: NEGATIVE, </td>
 <td></td>
 <td>0</td>
-<td>com.opencart.tests.SearchTest@5116ac09</td></tr>
+<td>com.opencart.tests.SearchTest@322803db</td></tr>
+<tr>
+<td title='com.opencart.tests.SearchTest.searchValidKeyword()'><b>searchValidKeyword</b><br>Test class: com.opencart.tests.SearchTest<br>Parameters: HAPPY, iPhone</td>
+<td></td>
+<td>1</td>
+<td>com.opencart.tests.SearchTest@322803db</td></tr>
+<tr>
+<td title='com.opencart.tests.SearchTest.filterProduct()'><b>filterProduct</b><br>Test class: com.opencart.tests.SearchTest</td>
+<td></td>
+<td>2</td>
+<td>com.opencart.tests.SearchTest@322803db</td></tr>
+<tr>
+<td title='com.opencart.tests.SearchTest.searchValidKeyword()'><b>searchValidKeyword</b><br>Test class: com.opencart.tests.SearchTest<br>Parameters: HAPPY, GALAXY</td>
+<td></td>
+<td>0</td>
+<td>com.opencart.tests.SearchTest@322803db</td></tr>
+<tr>
+<td title='com.opencart.tests.SearchTest.searchInvalidKeyword()'><b>searchInvalidKeyword</b><br>Test class: com.opencart.tests.SearchTest<br>Parameters: NEGATIVE, Pixel</td>
+<td></td>
+<td>0</td>
+<td>com.opencart.tests.SearchTest@322803db</td></tr>
 </table><p>
 </body>
 </html>

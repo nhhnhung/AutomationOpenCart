@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -123,12 +123,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(NEGATIVE, iPh0ne)">searchInvalidKeyword(NEGATIVE, iPh0ne)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(NEGATIVE, LG)">searchInvalidKeyword(NEGATIVE, LG)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(NEGATIVE, 12345)">searchInvalidKeyword(NEGATIVE, 12345)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,7 +133,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchValidKeyword(HAPPY, macbook)">searchValidKeyword(HAPPY, macbook)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(NEGATIVE, Pixel)">searchInvalidKeyword(NEGATIVE, Pixel)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -148,7 +143,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchValidKeyword(HAPPY, Phone)">searchValidKeyword(HAPPY, Phone)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchValidKeyword(HAPPY, GALAXY)">searchValidKeyword(HAPPY, GALAXY)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Search_Test_Suite -->
@@ -199,18 +194,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="searchInvalidKeyword(NEGATIVE, iPh0ne)">
-                  </a> <!-- searchInvalidKeyword(NEGATIVE, iPh0ne) -->
+                  <a name="searchInvalidKeyword(NEGATIVE, 12345)">
+                  </a> <!-- searchInvalidKeyword(NEGATIVE, 12345) -->
                   <span class="method-name">searchInvalidKeyword</span>
-                  <span class="parameters">(NEGATIVE, iPh0ne)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchInvalidKeyword(NEGATIVE, LG)">
-                  </a> <!-- searchInvalidKeyword(NEGATIVE, LG) -->
-                  <span class="method-name">searchInvalidKeyword</span>
-                  <span class="parameters">(NEGATIVE, LG)</span>
+                  <span class="parameters">(NEGATIVE, 12345)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -223,10 +210,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="searchValidKeyword(HAPPY, macbook)">
-                  </a> <!-- searchValidKeyword(HAPPY, macbook) -->
-                  <span class="method-name">searchValidKeyword</span>
-                  <span class="parameters">(HAPPY, macbook)</span>
+                  <a name="searchInvalidKeyword(NEGATIVE, Pixel)">
+                  </a> <!-- searchInvalidKeyword(NEGATIVE, Pixel) -->
+                  <span class="method-name">searchInvalidKeyword</span>
+                  <span class="parameters">(NEGATIVE, Pixel)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -239,10 +226,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="searchValidKeyword(HAPPY, Phone)">
-                  </a> <!-- searchValidKeyword(HAPPY, Phone) -->
+                  <a name="searchValidKeyword(HAPPY, GALAXY)">
+                  </a> <!-- searchValidKeyword(HAPPY, GALAXY) -->
                   <span class="method-name">searchValidKeyword</span>
-                  <span class="parameters">(HAPPY, Phone)</span>
+                  <span class="parameters">(HAPPY, GALAXY)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -299,44 +286,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'filterProduct')
 data.setCell(0, 2, 'com.opencart.tests.SearchTest')
-data.setCell(0, 3, 2869);
+data.setCell(0, 3, 2648);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'searchValidKeyword')
 data.setCell(1, 2, 'com.opencart.tests.SearchTest')
-data.setCell(1, 3, 1423);
+data.setCell(1, 3, 1271);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'filterFromCategory')
 data.setCell(2, 2, 'com.opencart.tests.SearchTest')
-data.setCell(2, 3, 1051);
+data.setCell(2, 3, 1013);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'searchValidKeyword')
 data.setCell(3, 2, 'com.opencart.tests.SearchTest')
-data.setCell(3, 3, 633);
+data.setCell(3, 3, 637);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'searchValidKeyword')
+data.setCell(4, 1, 'searchInvalidKeyword')
 data.setCell(4, 2, 'com.opencart.tests.SearchTest')
-data.setCell(4, 3, 582);
+data.setCell(4, 3, 607);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'searchInvalidKeyword')
 data.setCell(5, 2, 'com.opencart.tests.SearchTest')
-data.setCell(5, 3, 524);
+data.setCell(5, 3, 575);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'searchInvalidKeyword')
 data.setCell(6, 2, 'com.opencart.tests.SearchTest')
-data.setCell(6, 3, 513);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'searchInvalidKeyword')
-data.setCell(7, 2, 'com.opencart.tests.SearchTest')
-data.setCell(7, 3, 474);
+data.setCell(6, 3, 557);
 window.suiteTableData['Search_Test_Suite']= { tableData: data, tableDiv: 'times-div-Search_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Search_Test_Suite">
               </div> <!-- times-div-Search_Test_Suite -->
             </div> <!-- times-div -->
@@ -369,45 +352,41 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">initPages</span>
-                <span class="method-start">12220 ms</span>
+                <span class="method-start">6460 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">searchValidKeyword(HAPPY, iPhone)</span>
-                <span class="method-start">14898 ms</span>
+                <span class="method-start">9107 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">searchValidKeyword(HAPPY, macbook)</span>
-                <span class="method-start">18946 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">searchValidKeyword(HAPPY, Phone)</span>
-                <span class="method-start">20908 ms</span>
+                <span class="method-name">searchValidKeyword(HAPPY, GALAXY)</span>
+                <span class="method-start">13246 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">filterFromCategory</span>
-                <span class="method-start">22778 ms</span>
+                <span class="method-start">15202 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">searchInvalidKeyword(NEGATIVE, LG)</span>
-                <span class="method-start">25528 ms</span>
+                <span class="method-name">searchInvalidKeyword(NEGATIVE, Pixel)</span>
+                <span class="method-start">17943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchInvalidKeyword(NEGATIVE, 12345)</span>
+                <span class="method-start">19838 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchInvalidKeyword(NEGATIVE, )</span>
-                <span class="method-start">27353 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">searchInvalidKeyword(NEGATIVE, iPh0ne)</span>
-                <span class="method-start">29144 ms</span>
+                <span class="method-start">21811 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">filterProduct</span>
-                <span class="method-start">30890 ms</span>
+                <span class="method-start">23630 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">35272 ms</span>
+                <span class="method-start">27836 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
