@@ -38,6 +38,9 @@ public class RegisterTest extends BaseTest {
             String confirm,
             String expected
     ) {
+        if(driver.getCurrentUrl().contains("account/success")){
+            registerPage.clickLogout();
+        }
         registerPage.openMyAccountMenu();
         registerPage.clickRegister();
 
@@ -69,6 +72,9 @@ public class RegisterTest extends BaseTest {
             String confirm,
             String expectedMessage
     ) {
+        if(driver.getCurrentUrl().contains("account/success")){
+            registerPage.clickLogout();
+        }
         registerPage.openMyAccountMenu();
         registerPage.clickRegister();
         registerPage.ScrollToInfoAcc();
@@ -81,7 +87,7 @@ public class RegisterTest extends BaseTest {
         registerPage.inputComfirm(confirm);
         registerPage.checkAgreePolycy();
         registerPage.clickBTNRegis();
-        if (driver.getTitle().contains("Your Account")) {
+        if (driver.getCurrentUrl().contains("account/success")) {
             registerPage.waitForPageLoaded();
             registerPage.clickLogout();
         }

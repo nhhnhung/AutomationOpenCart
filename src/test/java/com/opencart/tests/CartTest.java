@@ -100,6 +100,7 @@ public class CartTest extends BaseTest {
             cart.openCart();
         }
         cart.updateQuantity("MacBook", "-1");
+        cart.waitForPageLoaded();
         cart.assertTrue(
                 !cart.isProductInCart("MacBook"),
                 "Lỗi: Hệ thống không xử lý đúng khi nhập số lượng = -1"

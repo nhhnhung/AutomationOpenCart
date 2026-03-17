@@ -46,7 +46,7 @@ public class ReportListener implements ITestListener {
     public void onTestSuccess(ITestResult result) {
         Log.info("Test case " + result.getName() + " is passed.");
         //Dừng quay video
-        sleep(1);
+        sleep(0.5);
         File mp4File = CaptureHelper.stopRecord();
         AllureManager.attachVideo(mp4File);
     }
@@ -66,7 +66,7 @@ public class ReportListener implements ITestListener {
         CaptureHelper.takeScreenshotWhenFail(driver,result.getName());
         Log.error(result.getThrowable().toString());
         //Dừng quay video
-        sleep(1);
+        sleep(0.5);
         File mp4File = CaptureHelper.stopRecord();
         AllureManager.attachVideo(mp4File);
 
@@ -77,7 +77,7 @@ public class ReportListener implements ITestListener {
         Log.error("Test case " + result.getName() + " is skipped.");
         Log.error(result.getThrowable().toString());
         //Dừng quay video
-        sleep(1);
+        sleep(0.5);
         File mp4File = CaptureHelper.stopRecord();
         AllureManager.attachVideo(mp4File);
     }

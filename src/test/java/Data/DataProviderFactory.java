@@ -53,7 +53,8 @@ public class DataProviderFactory {
                         filePath,
                         "Sheet1",
                         "NEGATIVE",
-                        "BOUNDARY_FAIL"
+                        "BOUNDARY_FAIL",
+                        "BOUNDARY"
                 );
 
             default:
@@ -82,7 +83,8 @@ public class DataProviderFactory {
                 return excelHelper.getExcelData(
                         filePath,
                         "Sheet1",
-                        "NEGATIVE"
+                        "NEGATIVE",
+                        "BOUNDARY"
                 );
             case "testLoginWithPassSQLInjection":
                 return excelHelper.getExcelData(
@@ -121,6 +123,7 @@ public class DataProviderFactory {
                         filePath,
                         "Sheet1",
                         "NEGATIVE",
+                        "BOUNDARY",
                         "SECURITY"
                 );
 

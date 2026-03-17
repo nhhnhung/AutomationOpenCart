@@ -12,6 +12,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
+import static com.opencart.helpers.LibraryHelper.sleep;
+
 public class BasePage {
     protected WebDriver driver;
     protected WebDriverWait wait;
@@ -20,7 +22,7 @@ public class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         this.js = (JavascriptExecutor) driver;
         actions = new Actions(driver);
     }
@@ -116,7 +118,8 @@ public class BasePage {
         }
         Log.info("Cuộn tới phần tử: " + element.toString());
         waitForElementVisible(element);
-        js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element);
+        js.executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
+        sleep(0.3);
     }
 
     public boolean verifyEquals(Object actual, Object expected) {

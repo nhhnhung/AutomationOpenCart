@@ -68,8 +68,8 @@ public class LoginTest extends BaseTest {
     public void testBlockLogin() {
         loginPage.openMyAccountMenu();
         loginPage.clickLogin();
+        loginPage.waitForPageLoaded();
         for (int i = 0; i < 6; i++) {
-            loginPage.waitForPageLoaded();
             loginPage.clickBTNLogin();
         }
         loginPage.verifyErrorMessage("Your account has exceeded");
@@ -83,7 +83,8 @@ public class LoginTest extends BaseTest {
         loginPage.inputEmail("john068@mail.com");
         loginPage.inputPass("123456");
         loginPage.clickBTNLogin();
-        if(driver.getTitle().contains("My Account")){
+        loginPage.waitForPageLoaded();
+        if(driver.getTitle().contains("My Account") == true){
             loginPage.clickLogout();
             loginPage.assertTrue(false,"Lỗi: Login bị khóa vẫn đăng nhập được");
         }
@@ -98,6 +99,9 @@ public class LoginTest extends BaseTest {
             String password,
             String expectedMessage
     ) {
+        if(driver.getTitle().contains("My Account") == true){
+            loginPage.clickLogout();
+        }
         loginPage.openMyAccountMenu();
         loginPage.clickLogin();
         loginPage.inputEmail(email);

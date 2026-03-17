@@ -135,7 +135,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <!-- Call Suite name -->
-                        <suiteXmlFile>suites/search.xml</suiteXmlFile>
+                        <suiteXmlFile>suites/login.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.25/aspectjweaver-1.9.25.jar"

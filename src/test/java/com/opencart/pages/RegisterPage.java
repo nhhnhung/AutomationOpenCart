@@ -3,6 +3,7 @@ package com.opencart.pages;
 import com.opencart.base.BasePage;
 import com.opencart.utils.Log;
 import io.qameta.allure.Step;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,6 +13,8 @@ import org.testng.Assert;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.opencart.helpers.LibraryHelper.sleep;
 
 
 public class RegisterPage extends BasePage {
@@ -72,9 +75,31 @@ public class RegisterPage extends BasePage {
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, 5), this); // Khởi tạo cho @FindBy
     }
 
+//    public void clickLogout() {
+//        scrollToElement(this.logout);
+//        clickElement(this.logout);
+//    }
     public void clickLogout() {
-        scrollToElement(this.logout);
-        clickElement(this.logout);
+        int retry = 0;
+        while (retry < 3) {
+            try {
+                scrollToElement(this.logout);
+                sleep(1);
+                clickElement(this.logout);
+                return;
+            } catch (Exception e) {
+                retry++;
+                System.out.println("Click logout fail, thử lại lần " + retry);
+                sleep(0.5);
+            }
+        }
+        try {
+            System.out.println("Dùng JS click logout");
+            ((JavascriptExecutor) driver)
+                    .executeScript("arguments[0].click();", this.logout);
+        } catch (Exception e) {
+            throw new RuntimeException("Không thể click logout");
+        }
     }
 
     @Step("Di chuyển đến khung nhập thông tin người dùng")
@@ -165,5 +190,6 @@ public class RegisterPage extends BasePage {
                 "Lỗi mong muốn không tìm thấy: " + expectedMessage
                         + "\nThông báo thực tế: " + actualMessages
         );
+
     }
 }
