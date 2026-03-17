@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Search_Test_Suite" class="navigator-link">
-              <span class="suite-name border-failed">Search Test Suite</span>
+            <a href="#" panel-name="suite-Login_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Login Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Search_Test_Suite" class="navigator-link ">
-                    <span>D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\suites\search.xml</span>
+                  <a href="#" panel-name="test-xml-Login_Test_Suite" class="navigator-link ">
+                    <span>D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\suites\login.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Search_Test_Suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Login_Test_Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Search_Test_Suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Login_Test_Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Search_Test_Suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Login_Test_Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Search_Test_Suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Login_Test_Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Search_Test_Suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Login_Test_Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Search_Test_Suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Login_Test_Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,60 +93,65 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
                     <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Search_Test_Suite" class="hide-methods failed suite-Search_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Search_Test_Suite -->
-                      <a href="#" panel-name="suite-Search_Test_Suite" class="show-methods failed suite-Search_Test_Suite"> (show)</a> <!-- show-methods failed suite-Search_Test_Suite -->
+                      <a href="#" panel-name="suite-Login_Test_Suite" class="hide-methods failed suite-Login_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Login_Test_Suite -->
+                      <a href="#" panel-name="suite-Login_Test_Suite" class="show-methods failed suite-Login_Test_Suite"> (show)</a> <!-- show-methods failed suite-Login_Test_Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Search_Test_Suite">
+                    <div class="method-list-content failed suite-Login_Test_Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="filterFromCategory">filterFromCategory</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginNegativeBoundary(NEGATIVE, john068@mail.com, , Password must not be empty)">testLoginNegativeBoundary(NEGATIVE, john068@mail.com, , Password must not be empty)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Search_Test_Suite -->
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWhenLoginBlock">testLoginWhenLoginBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Login_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Search_Test_Suite" class="hide-methods passed suite-Search_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Search_Test_Suite -->
-                      <a href="#" panel-name="suite-Search_Test_Suite" class="show-methods passed suite-Search_Test_Suite"> (show)</a> <!-- show-methods passed suite-Search_Test_Suite -->
+                      <a href="#" panel-name="suite-Login_Test_Suite" class="hide-methods passed suite-Login_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Login_Test_Suite -->
+                      <a href="#" panel-name="suite-Login_Test_Suite" class="show-methods passed suite-Login_Test_Suite"> (show)</a> <!-- show-methods passed suite-Login_Test_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Search_Test_Suite">
+                    <div class="method-list-content passed suite-Login_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="filterProduct">filterProduct</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testBlockLogin">testBlockLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(NEGATIVE, 12345)">searchInvalidKeyword(NEGATIVE, 12345)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginNegativeBoundary(NEGATIVE, notexist@mail.com, any123, Warning: No match for E-Mail Address and/or Password.)">testLoginNegativeBoundary(NEGATIVE, notexist@mail.com, any123, Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(NEGATIVE, )">searchInvalidKeyword(NEGATIVE, )</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginNegativeBoundary(BOUNDARY, &#039; OR &#039;1&#039;=&#039;1, anything, Warning: No match for E-Mail Address and/or Password.)">testLoginNegativeBoundary(BOUNDARY, ' OR '1'='1, anything, Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(NEGATIVE, Pixel)">searchInvalidKeyword(NEGATIVE, Pixel)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginNegativeBoundary(NEGATIVE, john72@mail.com, wrongpass, Warning: No match for E-Mail Address and/or Password.)">testLoginNegativeBoundary(NEGATIVE, john72@mail.com, wrongpass, Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchValidKeyword(HAPPY, iPhone)">searchValidKeyword(HAPPY, iPhone)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful)">testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchValidKeyword(HAPPY, GALAXY)">searchValidKeyword(HAPPY, GALAXY)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginSuccess(HAPPY, john72@mail.com, abc123, Login successful)">testLoginSuccess(HAPPY, john72@mail.com, abc123, Login successful)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Search_Test_Suite -->
+                    </div> <!-- method-list-content passed suite-Login_Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -157,236 +162,261 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Search_Test_Suite" class="panel Search_Test_Suite">
-          <div class="suite-Search_Test_Suite-class-failed">
+        <div panel-name="suite-Login_Test_Suite" class="panel Login_Test_Suite">
+          <div class="suite-Login_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.opencart.tests.SearchTest</span>
+              <span class="class-name">com.opencart.tests.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="filterFromCategory">
-                  </a> <!-- filterFromCategory -->
-                  <span class="method-name">filterFromCategory</span>
-                  <div class="stack-trace">java.lang.RuntimeException: Kiểm tra thất bại: Lỗi: Lọc theo danh mục không hiện sản phẩm
-	at com.opencart.base.BasePage.assertTrue(BasePage.java:141)
-	at com.opencart.tests.SearchTest.filterFromCategory(SearchTest.java:65)
+                  <a name="testLoginNegativeBoundary(NEGATIVE, john068@mail.com, , Password must not be empty)">
+                  </a> <!-- testLoginNegativeBoundary(NEGATIVE, john068@mail.com, , Password must not be empty) -->
+                  <span class="method-name">testLoginNegativeBoundary</span>
+                  <span class="parameters">(NEGATIVE, john068@mail.com, , Password must not be empty)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Lỗi mong muốn không tìm thấy: Password must not be empty
+Thông báo thực tế: [Warning: No match for E-Mail Address and/or Password.] expected [true] but found [false]
+	at com.opencart.pages.LoginPage.verifyErrorMessage(LoginPage.java:64)
+	at com.opencart.tests.LoginTest.testLoginNegativeBoundary(LoginTest.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWhenLoginBlock">
+                  </a> <!-- testLoginWhenLoginBlock -->
+                  <span class="method-name">testLoginWhenLoginBlock</span>
+                  <div class="stack-trace">java.lang.RuntimeException: Kiểm tra thất bại: Lỗi: Login bị khóa vẫn đăng nhập được
+	at com.opencart.base.BasePage.assertTrue(BasePage.java:144)
+	at com.opencart.tests.LoginTest.testLoginWhenLoginBlock(LoginTest.java:89)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Search_Test_Suite-class-failed -->
-          <div class="suite-Search_Test_Suite-class-passed">
+          </div> <!-- suite-Login_Test_Suite-class-failed -->
+          <div class="suite-Login_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.opencart.tests.SearchTest</span>
+              <span class="class-name">com.opencart.tests.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="filterProduct">
-                  </a> <!-- filterProduct -->
-                  <span class="method-name">filterProduct</span>
+                  <a name="testBlockLogin">
+                  </a> <!-- testBlockLogin -->
+                  <span class="method-name">testBlockLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="searchInvalidKeyword(NEGATIVE, 12345)">
-                  </a> <!-- searchInvalidKeyword(NEGATIVE, 12345) -->
-                  <span class="method-name">searchInvalidKeyword</span>
-                  <span class="parameters">(NEGATIVE, 12345)</span>
+                  <a name="testLoginNegativeBoundary(NEGATIVE, notexist@mail.com, any123, Warning: No match for E-Mail Address and/or Password.)">
+                  </a> <!-- testLoginNegativeBoundary(NEGATIVE, notexist@mail.com, any123, Warning: No match for E-Mail Address and/or Password.) -->
+                  <span class="method-name">testLoginNegativeBoundary</span>
+                  <span class="parameters">(NEGATIVE, notexist@mail.com, any123, Warning: No match for E-Mail Address and/or Password.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="searchInvalidKeyword(NEGATIVE, )">
-                  </a> <!-- searchInvalidKeyword(NEGATIVE, ) -->
-                  <span class="method-name">searchInvalidKeyword</span>
-                  <span class="parameters">(NEGATIVE, )</span>
+                  <a name="testLoginNegativeBoundary(BOUNDARY, &#039; OR &#039;1&#039;=&#039;1, anything, Warning: No match for E-Mail Address and/or Password.)">
+                  </a> <!-- testLoginNegativeBoundary(BOUNDARY, ' OR '1'='1, anything, Warning: No match for E-Mail Address and/or Password.) -->
+                  <span class="method-name">testLoginNegativeBoundary</span>
+                  <span class="parameters">(BOUNDARY, ' OR '1'='1, anything, Warning: No match for E-Mail Address and/or Password.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="searchInvalidKeyword(NEGATIVE, Pixel)">
-                  </a> <!-- searchInvalidKeyword(NEGATIVE, Pixel) -->
-                  <span class="method-name">searchInvalidKeyword</span>
-                  <span class="parameters">(NEGATIVE, Pixel)</span>
+                  <a name="testLoginNegativeBoundary(NEGATIVE, john72@mail.com, wrongpass, Warning: No match for E-Mail Address and/or Password.)">
+                  </a> <!-- testLoginNegativeBoundary(NEGATIVE, john72@mail.com, wrongpass, Warning: No match for E-Mail Address and/or Password.) -->
+                  <span class="method-name">testLoginNegativeBoundary</span>
+                  <span class="parameters">(NEGATIVE, john72@mail.com, wrongpass, Warning: No match for E-Mail Address and/or Password.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="searchValidKeyword(HAPPY, iPhone)">
-                  </a> <!-- searchValidKeyword(HAPPY, iPhone) -->
-                  <span class="method-name">searchValidKeyword</span>
-                  <span class="parameters">(HAPPY, iPhone)</span>
+                  <a name="testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful)">
+                  </a> <!-- testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful) -->
+                  <span class="method-name">testLoginSuccess</span>
+                  <span class="parameters">(HAPPY, john068@mail.com, 123456, Login successful)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="searchValidKeyword(HAPPY, GALAXY)">
-                  </a> <!-- searchValidKeyword(HAPPY, GALAXY) -->
-                  <span class="method-name">searchValidKeyword</span>
-                  <span class="parameters">(HAPPY, GALAXY)</span>
+                  <a name="testLoginSuccess(HAPPY, john72@mail.com, abc123, Login successful)">
+                  </a> <!-- testLoginSuccess(HAPPY, john72@mail.com, abc123, Login successful) -->
+                  <span class="method-name">testLoginSuccess</span>
+                  <span class="parameters">(HAPPY, john72@mail.com, abc123, Login successful)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Search_Test_Suite-class-passed -->
-        </div> <!-- panel Search_Test_Suite -->
-        <div panel-name="test-xml-Search_Test_Suite" class="panel">
+          </div> <!-- suite-Login_Test_Suite-class-passed -->
+        </div> <!-- panel Login_Test_Suite -->
+        <div panel-name="test-xml-Login_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\suites\search.xml</span>
+            <span class="header-content">D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\suites\login.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Search Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Search Tests&quot; verbose=&quot;0&quot;&gt;
+&lt;suite name=&quot;Login Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Tests&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.opencart.tests.SearchTest&quot;/&gt;
+      &lt;class name=&quot;com.opencart.tests.LoginTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Search Tests --&gt;
-&lt;/suite&gt; &lt;!-- Search Test Suite --&gt;
+  &lt;/test&gt; &lt;!-- Login Tests --&gt;
+&lt;/suite&gt; &lt;!-- Login Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Search_Test_Suite" class="panel">
+        <div panel-name="testlist-Login_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Search Test Suite</span>
+            <span class="header-content">Tests for Login Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Search Tests (1 class)</span>
+                <span class="test-name">Login Tests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Search_Test_Suite" class="panel">
+        <div panel-name="group-Login_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Search Test Suite</span>
+            <span class="header-content">Groups for Login Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Search_Test_Suite" class="panel">
+        <div panel-name="times-Login_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Search Test Suite</span>
+            <span class="header-content">Times for Login Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Search_Test_Suite');
-function tableData_Search_Test_Suite() {
+suiteTableInitFunctions.push('tableData_Login_Test_Suite');
+function tableData_Login_Test_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'filterProduct')
-data.setCell(0, 2, 'com.opencart.tests.SearchTest')
-data.setCell(0, 3, 2648);
+data.setCell(0, 1, 'testLoginSuccess')
+data.setCell(0, 2, 'com.opencart.tests.LoginTest')
+data.setCell(0, 3, 3591);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'searchValidKeyword')
-data.setCell(1, 2, 'com.opencart.tests.SearchTest')
-data.setCell(1, 3, 1271);
+data.setCell(1, 1, 'testLoginSuccess')
+data.setCell(1, 2, 'com.opencart.tests.LoginTest')
+data.setCell(1, 3, 2888);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'filterFromCategory')
-data.setCell(2, 2, 'com.opencart.tests.SearchTest')
-data.setCell(2, 3, 1013);
+data.setCell(2, 1, 'testLoginWhenLoginBlock')
+data.setCell(2, 2, 'com.opencart.tests.LoginTest')
+data.setCell(2, 3, 2837);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'searchValidKeyword')
-data.setCell(3, 2, 'com.opencart.tests.SearchTest')
-data.setCell(3, 3, 637);
+data.setCell(3, 1, 'testBlockLogin')
+data.setCell(3, 2, 'com.opencart.tests.LoginTest')
+data.setCell(3, 3, 2398);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'searchInvalidKeyword')
-data.setCell(4, 2, 'com.opencart.tests.SearchTest')
-data.setCell(4, 3, 607);
+data.setCell(4, 1, 'testLoginNegativeBoundary')
+data.setCell(4, 2, 'com.opencart.tests.LoginTest')
+data.setCell(4, 3, 1131);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'searchInvalidKeyword')
-data.setCell(5, 2, 'com.opencart.tests.SearchTest')
-data.setCell(5, 3, 575);
+data.setCell(5, 1, 'testLoginNegativeBoundary')
+data.setCell(5, 2, 'com.opencart.tests.LoginTest')
+data.setCell(5, 3, 1113);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'searchInvalidKeyword')
-data.setCell(6, 2, 'com.opencart.tests.SearchTest')
-data.setCell(6, 3, 557);
-window.suiteTableData['Search_Test_Suite']= { tableData: data, tableDiv: 'times-div-Search_Test_Suite'}
+data.setCell(6, 1, 'testLoginNegativeBoundary')
+data.setCell(6, 2, 'com.opencart.tests.LoginTest')
+data.setCell(6, 3, 1052);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testLoginNegativeBoundary')
+data.setCell(7, 2, 'com.opencart.tests.LoginTest')
+data.setCell(7, 3, 992);
+window.suiteTableData['Login_Test_Suite']= { tableData: data, tableDiv: 'times-div-Login_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
-              <div id="times-div-Search_Test_Suite">
-              </div> <!-- times-div-Search_Test_Suite -->
+              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <div id="times-div-Login_Test_Suite">
+              </div> <!-- times-div-Login_Test_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Search_Test_Suite" class="panel">
+        <div panel-name="reporter-Login_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Search Test Suite</span>
+            <span class="header-content">Reporter output for Login Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Search_Test_Suite" class="panel">
+        <div panel-name="ignored-methods-Login_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Search_Test_Suite" class="panel">
+        <div panel-name="chronological-Login_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.opencart.tests.SearchTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.opencart.tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">createDriver</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">initPages</span>
-                <span class="method-start">6460 ms</span>
+                <span class="method-start">6248 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">searchValidKeyword(HAPPY, iPhone)</span>
-                <span class="method-start">9107 ms</span>
+                <span class="method-name">testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful)</span>
+                <span class="method-start">8726 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">searchValidKeyword(HAPPY, GALAXY)</span>
-                <span class="method-start">13246 ms</span>
+                <span class="method-name">testLoginSuccess(HAPPY, john72@mail.com, abc123, Login successful)</span>
+                <span class="method-start">13639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginNegativeBoundary(NEGATIVE, notexist@mail.com, any123, Warning: No match for E-Mail Address and/or Password.)</span>
+                <span class="method-start">17600 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">filterFromCategory</span>
-                <span class="method-start">15202 ms</span>
+                <span class="method-name">testLoginNegativeBoundary(NEGATIVE, john068@mail.com, , Password must not be empty)</span>
+                <span class="method-start">19645 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">searchInvalidKeyword(NEGATIVE, Pixel)</span>
-                <span class="method-start">17943 ms</span>
+                <span class="method-name">testLoginNegativeBoundary(NEGATIVE, john72@mail.com, wrongpass, Warning: No match for E-Mail Address and/or Password.)</span>
+                <span class="method-start">21937 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">searchInvalidKeyword(NEGATIVE, 12345)</span>
-                <span class="method-start">19838 ms</span>
+                <span class="method-name">testLoginNegativeBoundary(BOUNDARY, ' OR '1'='1, anything, Warning: No match for E-Mail Address and/or Password.)</span>
+                <span class="method-start">23771 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">searchInvalidKeyword(NEGATIVE, )</span>
-                <span class="method-start">21811 ms</span>
+                <span class="method-name">testBlockLogin</span>
+                <span class="method-start">25701 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">filterProduct</span>
-                <span class="method-start">23630 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLoginWhenLoginBlock</span>
+                <span class="method-start">29032 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">27836 ms</span>
+                <span class="method-start">33094 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
