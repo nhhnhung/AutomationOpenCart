@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 35.13 s <<< FAILURE! -- in TestSuite
-com.opencart.tests.LoginTest.testLoginNegativeBoundary[NEGATIVE, john068@mail.com, , Password must not be empty](2) -- Time elapsed: 2.292 s <<< FAILURE!
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 209.0 s <<< FAILURE! -- in TestSuite
+com.opencart.tests.RegisterTest.registerNegativeBoundary[NEGATIVE, Frank, Gray, frank.gray@example.com, abcde12345, Pass7890, Pass7890, Telephone must be between 3 and 32 characters!](4) -- Time elapsed: 30.01 s <<< FAILURE!
 java.lang.AssertionError: 
-Lỗi mong muốn không tìm thấy: Password must not be empty
-Thông báo thực tế: [Warning: No match for E-Mail Address and/or Password.] expected [true] but found [false]
+Lỗi mong muốn không tìm thấy: Telephone must be between 3 and 32 characters!
+Thông báo thực tế: [] expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertTrue(Assert.java:45)
-	at com.opencart.pages.LoginPage.verifyErrorMessage(LoginPage.java:64)
-	at com.opencart.tests.LoginTest.testLoginNegativeBoundary(LoginTest.java:61)
+	at com.opencart.pages.RegisterPage.verifyErrorMessage(RegisterPage.java:194)
+	at com.opencart.tests.RegisterTest.registerNegativeBoundary(RegisterTest.java:94)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -44,10 +44,15 @@ Thông báo thực tế: [Warning: No match for E-Mail Address and/or Password.]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.opencart.tests.LoginTest.testLoginWhenLoginBlock -- Time elapsed: 4.042 s <<< FAILURE!
-java.lang.RuntimeException: Kiểm tra thất bại: Lỗi: Login bị khóa vẫn đăng nhập được
-	at com.opencart.base.BasePage.assertTrue(BasePage.java:144)
-	at com.opencart.tests.LoginTest.testLoginWhenLoginBlock(LoginTest.java:89)
+com.opencart.tests.RegisterTest.registerNegativeBoundary[NEGATIVE, Hank, Lee, hank.lee@example.com, 6789012, 12345, 12345, Password must be between 6 and 32 characters!](6) -- Time elapsed: 39.20 s <<< FAILURE!
+java.lang.AssertionError: 
+Lỗi mong muốn không tìm thấy: Password must be between 6 and 32 characters!
+Thông báo thực tế: [] expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.opencart.pages.RegisterPage.verifyErrorMessage(RegisterPage.java:194)
+	at com.opencart.tests.RegisterTest.registerNegativeBoundary(RegisterTest.java:94)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
