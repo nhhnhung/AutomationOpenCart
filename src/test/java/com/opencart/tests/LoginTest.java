@@ -53,6 +53,9 @@ public class LoginTest extends BaseTest {
             String password,
             String expectedMessage
     ) {
+        if(driver.getTitle().contains("My Account") == true){
+            loginPage.clickLogout();
+        }
         loginPage.openMyAccountMenu();
         loginPage.clickLogin();
         loginPage.inputEmail(email);
@@ -66,6 +69,9 @@ public class LoginTest extends BaseTest {
     @Description("Nhấn nút login nhiều lần xem có khóa tạm thời không")
     @Severity(SeverityLevel.MINOR)
     public void testBlockLogin() {
+        if(driver.getTitle().contains("My Account") == true){
+            loginPage.clickLogout();
+        }
         loginPage.openMyAccountMenu();
         loginPage.clickLogin();
         loginPage.waitForPageLoaded();
@@ -78,6 +84,9 @@ public class LoginTest extends BaseTest {
     @Test(priority = 4)
     @Description("Đăng nhập với dữ liệu đúng khi bị khóa đăng nhập")
     public void testLoginWhenLoginBlock() {
+        if(driver.getTitle().contains("My Account") == true){
+            loginPage.clickLogout();
+        }
         loginPage.openMyAccountMenu();
         loginPage.clickLogin();
         loginPage.inputEmail("john068@mail.com");

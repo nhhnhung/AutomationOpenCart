@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Register Test Suite">
+<suite name="Register manual Test Suite">
 
     <test name="Register Tests">
         <classes>

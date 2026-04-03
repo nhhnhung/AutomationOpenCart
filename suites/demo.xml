@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OpenCart Demo Suite">
+
+    <test name="OpenCart Demo Tests">
+
+        <classes>
+            <class name="com.opencart.tests.CartTest"/>
+            <class name="com.opencart.tests.CheckoutTest"/>
+            <class name="com.opencart.tests.SearchTest"/>
+        </classes>
+
+    </test>
+
+</suite>

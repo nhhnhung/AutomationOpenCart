@@ -180,6 +180,12 @@ public class RegisterPage extends BasePage {
             }
         }
 
+        try {
+            String validationMsg = this.email.getAttribute("validationMessage");
+            if (validationMsg != null && !validationMsg.isEmpty()) {
+                actualMessages.add(validationMsg.trim());
+            }
+        } catch (Exception ignored) {}
         Log.info("Thông báo lỗi: " + actualMessages);
 
         boolean isMatched = actualMessages.stream()
