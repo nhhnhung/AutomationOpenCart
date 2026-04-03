@@ -26,7 +26,7 @@ jobs:
           java-version: 17
 
       - name: Run Selenium Test
-        run: mvn clean test "-DsuiteXmlFile=suites/search.xml"
+        run: mvn clean test "-DsuiteXmlFile=suites/register.xml"
 
 
       - name: Copy report

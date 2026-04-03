@@ -13129,3 +13129,212 @@ Session ID: e8254d7a7cacc33d3bc800327cf129ea
 [INFO] 03-04-2026 09:06:53 [main] Log - Giá trị đúng
 [INFO] 03-04-2026 09:06:53 [main] Log - Test case filterProduct is passed.
 [INFO] 03-04-2026 09:06:54 [main] Log - End testing OpenCart Demo Tests
+[INFO] 03-04-2026 20:03:08 [main] Log - Khởi tạo trình duyệt: chrome
+[INFO] 03-04-2026 20:03:30 [main] Log - Running test case testLoginSuccess
+[INFO] 03-04-2026 20:03:35 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:03:35 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:03:35 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (96635c0a7f291edb2ebbe4b58750c549)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 03-04-2026 20:03:38 [main] Log - Test case testLoginSuccess is passed.
+[INFO] 03-04-2026 20:03:40 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 03-04-2026 20:03:42 [main] Log - Thông báo lỗi: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 03-04-2026 20:03:42 [main] Log - Test case testLoginNegativeBoundary is passed.
+[INFO] 03-04-2026 20:03:43 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 03-04-2026 20:03:46 [main] Log - Thông báo lỗi: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 03-04-2026 20:03:46 [main] Log - Test case testLoginNegativeBoundary is passed.
+[INFO] 03-04-2026 20:03:47 [main] Log - Running test case testLoginNegativeBoundary
+[INFO] 03-04-2026 20:03:49 [main] Log - Thông báo lỗi: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 03-04-2026 20:03:49 [main] Log - Test case testLoginNegativeBoundary is passed.
+[INFO] 03-04-2026 20:03:50 [main] Log - Running test case testBlockLogin
+[INFO] 03-04-2026 20:03:55 [main] Log - Thông báo lỗi: [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+[INFO] 03-04-2026 20:03:55 [main] Log - Test case testBlockLogin is passed.
+[INFO] 03-04-2026 20:03:56 [main] Log - Running test case testLoginWhenLoginBlock
+[INFO] 03-04-2026 20:03:59 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (96635c0a7f291edb2ebbe4b58750c549)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 03-04-2026 20:04:01 [main] Log - Đang xác thực giá trị đúng...
+
+[ERROR] 03-04-2026 20:04:01 [main] Log - Test case testLoginWhenLoginBlock is failed.
+[ERROR] 03-04-2026 20:04:02 [main] Log - java.lang.RuntimeException: Kiểm tra thất bại: Lỗi: Login bị khóa vẫn đăng nhập được
+[INFO] 03-04-2026 20:04:03 [main] Log - Running test case testLoginWithPassSQLInjection
+[INFO] 03-04-2026 20:04:05 [main] Log - Thông báo lỗi: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 03-04-2026 20:04:05 [main] Log - Test case testLoginWithPassSQLInjection is passed.
+[INFO] 03-04-2026 20:04:07 [main] Log - Khởi tạo trình duyệt: chrome
+[INFO] 03-04-2026 20:04:09 [main] Log - Running test case registerSuccess
+[INFO] 03-04-2026 20:04:11 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:04:11 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:04:11 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 03-04-2026 20:04:13 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 03-04-2026 20:04:19 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:04:19 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:04:19 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 03-04-2026 20:04:21 [main] Log - Test case registerSuccess is passed.
+[INFO] 03-04-2026 20:04:23 [main] Log - Running test case registerNegativeBoundary
+[INFO] 03-04-2026 20:04:24 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 03-04-2026 20:04:26 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 03-04-2026 20:04:29 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 03-04-2026 20:04:47 [main] Log - Thông báo lỗi: []
+[ERROR] 03-04-2026 20:04:47 [main] Log - Test case registerNegativeBoundary is failed.
+[ERROR] 03-04-2026 20:04:47 [main] Log - java.lang.AssertionError: Lỗi mong muốn không tìm thấy: Password must be between 6 and 32 characters!
+Thông báo thực tế: [] expected [true] but found [false]
+[INFO] 03-04-2026 20:04:49 [main] Log - Running test case registerNegativeBoundary
+[INFO] 03-04-2026 20:04:50 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 03-04-2026 20:04:52 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 03-04-2026 20:04:59 [main] Log - Thông báo lỗi: [First Name must be between 1 and 32 characters!]
+[INFO] 03-04-2026 20:04:59 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 03-04-2026 20:05:00 [main] Log - Running test case registerNegativeBoundary
+[INFO] 03-04-2026 20:05:01 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 03-04-2026 20:05:03 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 03-04-2026 20:05:10 [main] Log - Thông báo lỗi: [Telephone must be between 3 and 32 characters!]
+[INFO] 03-04-2026 20:05:10 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 03-04-2026 20:05:11 [main] Log - Running test case registerNegativeBoundary
+[INFO] 03-04-2026 20:05:12 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 03-04-2026 20:05:14 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 03-04-2026 20:05:21 [main] Log - Thông báo lỗi: [E-Mail Address does not appear to be valid!]
+[INFO] 03-04-2026 20:05:21 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 03-04-2026 20:05:23 [main] Log - Running test case registerNegativeBoundary
+[INFO] 03-04-2026 20:05:24 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 03-04-2026 20:05:26 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 03-04-2026 20:05:33 [main] Log - Thông báo lỗi: [Warning: E-Mail Address is already registered!]
+[INFO] 03-04-2026 20:05:33 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 03-04-2026 20:05:34 [main] Log - Running test case registerNegativeBoundary
+[INFO] 03-04-2026 20:05:35 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 03-04-2026 20:05:36 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 03-04-2026 20:05:39 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 03-04-2026 20:05:57 [main] Log - Thông báo lỗi: []
+[ERROR] 03-04-2026 20:05:57 [main] Log - Test case registerNegativeBoundary is failed.
+[ERROR] 03-04-2026 20:05:57 [main] Log - java.lang.AssertionError: Lỗi mong muốn không tìm thấy: Telephone must be between 3 and 32 characters!
+Thông báo thực tế: [] expected [true] but found [false]
+[INFO] 03-04-2026 20:05:58 [main] Log - Running test case registerNegativeBoundary
+[INFO] 03-04-2026 20:05:59 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 03-04-2026 20:06:01 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 03-04-2026 20:06:03 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 03-04-2026 20:06:21 [main] Log - Thông báo lỗi: []
+[ERROR] 03-04-2026 20:06:21 [main] Log - Test case registerNegativeBoundary is failed.
+[ERROR] 03-04-2026 20:06:21 [main] Log - java.lang.AssertionError: Lỗi mong muốn không tìm thấy: E-Mail Address does not appear to be valid!
+Thông báo thực tế: [] expected [true] but found [false]
+[INFO] 03-04-2026 20:06:23 [main] Log - Running test case registerNegativeBoundary
+[INFO] 03-04-2026 20:06:24 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Personal Details']]
+[INFO] 03-04-2026 20:06:26 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (249fc7304b2b7d10e0933772c1372297)] -> xpath: //legend[normalize-space()='Your Password']]
+[INFO] 03-04-2026 20:06:33 [main] Log - Thông báo lỗi: [Password confirmation does not match password!]
+[INFO] 03-04-2026 20:06:33 [main] Log - Test case registerNegativeBoundary is passed.
+[INFO] 03-04-2026 20:06:34 [main] Log - Khởi tạo trình duyệt: chrome
+[INFO] 03-04-2026 20:06:42 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (7f96041cd06cd9818db10ef0ab993fc6)] -> xpath: (//a[normalize-space()='MacBook'])[1]]
+[INFO] 03-04-2026 20:06:47 [main] Log - Running test case verifyProductsAddedToCart
+[INFO] 03-04-2026 20:06:47 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:06:47 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:06:47 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:06:47 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:06:47 [main] Log - Test case verifyProductsAddedToCart is passed.
+[INFO] 03-04-2026 20:06:48 [main] Log - Running test case verifyUpdateQuantityUpdatesTotalPrice
+[INFO] 03-04-2026 20:06:49 [main] Log - Đang xác thực giá trị bằng nhau...
+ - Thực tế: 1324.0
+ - Kỳ vọng: 1324.0
+[INFO] 03-04-2026 20:06:49 [main] Log - Test case verifyUpdateQuantityUpdatesTotalPrice is passed.
+[INFO] 03-04-2026 20:06:50 [main] Log - Running test case verifyRemoveProduct
+[INFO] 03-04-2026 20:06:51 [main] Log - Test case verifyRemoveProduct is passed.
+[INFO] 03-04-2026 20:06:52 [main] Log - Running test case verifyReloadKeepsCartState
+[INFO] 03-04-2026 20:06:53 [main] Log - Đang xác thực giá trị bằng nhau...
+ - Thực tế: 3
+ - Kỳ vọng: 3
+[INFO] 03-04-2026 20:06:53 [main] Log - Test case verifyReloadKeepsCartState is passed.
+[INFO] 03-04-2026 20:06:54 [main] Log - Running test case verifyQuantityOverflow
+[INFO] 03-04-2026 20:06:55 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:06:55 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:06:55 [main] Log - Test case verifyQuantityOverflow is passed.
+[INFO] 03-04-2026 20:06:56 [main] Log - Running test case verifyQuantityZero
+[INFO] 03-04-2026 20:06:58 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:06:58 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:06:58 [main] Log - Test case verifyQuantityZero is passed.
+[INFO] 03-04-2026 20:06:59 [main] Log - Running test case verifyNegativeQuantity
+[INFO] 03-04-2026 20:07:00 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (7f96041cd06cd9818db10ef0ab993fc6)] -> xpath: (//a[normalize-space()='MacBook'])[1]]
+[INFO] 03-04-2026 20:07:04 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:07:04 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:07:04 [main] Log - Test case verifyNegativeQuantity is passed.
+[INFO] 03-04-2026 20:07:05 [main] Log - Running test case verifyInvalidQuantityText
+[INFO] 03-04-2026 20:07:06 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (7f96041cd06cd9818db10ef0ab993fc6)] -> xpath: (//a[normalize-space()='MacBook'])[1]]
+[INFO] 03-04-2026 20:07:11 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:07:11 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:07:11 [main] Log - Test case verifyInvalidQuantityText is passed.
+[INFO] 03-04-2026 20:07:12 [main] Log - Running test case verifyCartTotalPrice
+[INFO] 03-04-2026 20:07:13 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (7f96041cd06cd9818db10ef0ab993fc6)] -> xpath: (//a[normalize-space()='MacBook'])[1]]
+[INFO] 03-04-2026 20:07:16 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (7f96041cd06cd9818db10ef0ab993fc6)] -> xpath: //strong[text()='Sub-Total:']/parent::td/following-sibling::td]
+[INFO] 03-04-2026 20:07:17 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:07:17 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:07:17 [main] Log - Test case verifyCartTotalPrice is passed.
+[INFO] 03-04-2026 20:07:18 [main] Log - Khởi tạo trình duyệt: chrome
+[INFO] 03-04-2026 20:07:21 [main] Log - Running test case guestCheckoutSuccess
+[INFO] 03-04-2026 20:07:27 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (b385cbf7db3db33883e0be753651137e)] -> id: input-payment-firstname]
+[INFO] 03-04-2026 20:07:35 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:07:35 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:07:37 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:07:37 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:07:37 [main] Log - Test case guestCheckoutSuccess is passed.
+[INFO] 03-04-2026 20:07:39 [main] Log - Running test case checkoutFailWithoutAgree
+[INFO] 03-04-2026 20:07:44 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (b385cbf7db3db33883e0be753651137e)] -> id: input-payment-firstname]
+[INFO] 03-04-2026 20:07:50 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:07:50 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:07:50 [main] Log - Test case checkoutFailWithoutAgree is passed.
+[INFO] 03-04-2026 20:07:52 [main] Log - Running test case checkoutFailInvailEmailAndPhone
+[INFO] 03-04-2026 20:07:55 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (b385cbf7db3db33883e0be753651137e)] -> id: input-payment-firstname]
+[ERROR] 03-04-2026 20:08:04 [main] Log - Test case checkoutFailInvailEmailAndPhone is failed.
+[ERROR] 03-04-2026 20:08:04 [main] Log - org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Unable to locate the element
+[INFO] 03-04-2026 20:08:06 [main] Log - Running test case checkoutWithAccountSuccess
+[INFO] 03-04-2026 20:08:16 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:08:16 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:08:17 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:08:17 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:08:17 [main] Log - Test case checkoutWithAccountSuccess is passed.
+[INFO] 03-04-2026 20:08:20 [main] Log - Khởi tạo trình duyệt: chrome
+[INFO] 03-04-2026 20:08:22 [main] Log - Running test case searchValidKeyword
+[INFO] 03-04-2026 20:08:23 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:08:23 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:08:23 [main] Log - Test case searchValidKeyword is passed.
+[INFO] 03-04-2026 20:08:24 [main] Log - Running test case searchValidKeyword
+[INFO] 03-04-2026 20:08:25 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:08:25 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:08:25 [main] Log - Test case searchValidKeyword is passed.
+[INFO] 03-04-2026 20:08:26 [main] Log - Running test case filterFromCategory
+[INFO] 03-04-2026 20:08:28 [main] Log - Đang xác thực giá trị đúng...
+
+[ERROR] 03-04-2026 20:08:28 [main] Log - Test case filterFromCategory is failed.
+[ERROR] 03-04-2026 20:08:28 [main] Log - java.lang.RuntimeException: Kiểm tra thất bại: Lỗi: Lọc theo danh mục không hiện sản phẩm
+[INFO] 03-04-2026 20:08:29 [main] Log - Running test case searchInvalidKeyword
+[INFO] 03-04-2026 20:08:30 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:08:30 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:08:30 [main] Log - Test case searchInvalidKeyword is passed.
+[INFO] 03-04-2026 20:08:31 [main] Log - Running test case searchInvalidKeyword
+[INFO] 03-04-2026 20:08:32 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:08:32 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:08:32 [main] Log - Test case searchInvalidKeyword is passed.
+[INFO] 03-04-2026 20:08:33 [main] Log - Running test case filterProduct
+[INFO] 03-04-2026 20:08:35 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:08:35 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:08:36 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:08:36 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:08:37 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:08:37 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:08:37 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 03-04-2026 20:08:37 [main] Log - Giá trị đúng
+[INFO] 03-04-2026 20:08:37 [main] Log - Test case filterProduct is passed.
+[INFO] 03-04-2026 20:08:39 [main] Log - End testing OpenCart Tests
