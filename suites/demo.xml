@@ -5,9 +5,7 @@
     <test name="OpenCart Demo Tests">
 
         <classes>
-            <class name="com.opencart.tests.CartTest"/>
             <class name="com.opencart.tests.CheckoutTest"/>
-            <class name="com.opencart.tests.SearchTest"/>
         </classes>
 
     </test>
