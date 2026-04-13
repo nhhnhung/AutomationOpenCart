@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-07T21:29:53 ICT" name="Search Test Suite" finished-at="2026-04-07T21:30:45 ICT" duration-ms="52310">
+  <suite started-at="2026-04-13T10:37:12 ICT" name="Search Test Suite" finished-at="2026-04-13T10:37:47 ICT" duration-ms="35253">
     <groups>
     </groups>
-    <test started-at="2026-04-07T21:29:53 ICT" name="Search Tests" finished-at="2026-04-07T21:30:45 ICT" duration-ms="52310">
+    <test started-at="2026-04-13T10:37:12 ICT" name="Search Tests" finished-at="2026-04-13T10:37:47 ICT" duration-ms="35253">
       <class name="com.opencart.tests.SearchTest">
-        <test-method is-config="true" signature="createDriver()[pri:0, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-04-07T21:29:53 ICT" name="createDriver" finished-at="2026-04-07T21:30:05 ICT" duration-ms="11363" status="PASS">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:com.opencart.tests.SearchTest@6ceb7b5e]" started-at="2026-04-13T10:37:12 ICT" name="createDriver" finished-at="2026-04-13T10:37:24 ICT" duration-ms="11973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-04-07T21:30:05 ICT" name="initPages" finished-at="2026-04-07T21:30:05 ICT" duration-ms="844" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.opencart.tests.SearchTest@6ceb7b5e]" started-at="2026-04-13T10:37:24 ICT" name="initPages" finished-at="2026-04-13T10:37:24 ICT" duration-ms="339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="searchValidKeyword(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-04-07T21:30:10 ICT" name="searchValidKeyword" data-provider="searchData" finished-at="2026-04-07T21:30:12 ICT" duration-ms="2343" status="PASS">
+        <test-method signature="searchValidKeyword(java.lang.String,java.lang.String)[pri:1, instance:com.opencart.tests.SearchTest@6ceb7b5e]" started-at="2026-04-13T10:37:26 ICT" name="searchValidKeyword" data-provider="searchData" finished-at="2026-04-13T10:37:27 ICT" duration-ms="1255" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchValidKeyword -->
-        <test-method signature="filterFromCategory()[pri:2, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-04-07T21:30:14 ICT" name="filterFromCategory" finished-at="2026-04-07T21:30:17 ICT" duration-ms="3285" status="FAIL">
+        <test-method signature="filterFromCategory()[pri:2, instance:com.opencart.tests.SearchTest@6ceb7b5e]" started-at="2026-04-13T10:37:28 ICT" name="filterFromCategory" finished-at="2026-04-13T10:37:30 ICT" duration-ms="1284" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Kiểm tra thất bại: Lỗi: Lọc theo danh mục không hiện sản phẩm]]>
@@ -78,7 +78,23 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterFromCategory -->
-        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-04-07T21:30:19 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-04-07T21:30:19 ICT" duration-ms="909" status="PASS">
+        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@6ceb7b5e]" started-at="2026-04-13T10:37:31 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-04-13T10:37:31 ICT" duration-ms="617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NEGATIVE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pixel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInvalidKeyword -->
+        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@6ceb7b5e]" started-at="2026-04-13T10:37:32 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-04-13T10:37:33 ICT" duration-ms="520" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,23 +110,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchInvalidKeyword -->
-        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-04-07T21:30:20 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-04-07T21:30:21 ICT" duration-ms="961" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[NEGATIVE]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Nokia]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchInvalidKeyword -->
-        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-04-07T21:30:22 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-04-07T21:30:23 ICT" duration-ms="1043" status="PASS">
+        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@6ceb7b5e]" started-at="2026-04-13T10:37:34 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-04-13T10:37:34 ICT" duration-ms="790" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,39 +126,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchInvalidKeyword -->
-        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-04-07T21:30:24 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-04-07T21:30:25 ICT" duration-ms="1131" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[NEGATIVE]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[<script>alert(1)</script>]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchInvalidKeyword -->
-        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-04-07T21:30:27 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-04-07T21:30:28 ICT" duration-ms="1066" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[NEGATIVE]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchInvalidKeyword -->
-        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-04-07T21:30:28 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-04-07T21:30:35 ICT" duration-ms="6513" status="FAIL">
+        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@6ceb7b5e]" started-at="2026-04-13T10:37:35 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-04-13T10:37:41 ICT" duration-ms="5845" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -167,7 +135,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </param>
             <param index="1">
               <value>
-                <![CDATA[i]]>
+                <![CDATA[A]]>
               </value>
             </param>
           </params>
@@ -220,10 +188,10 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5b75b7a2cca95b245ab8cdc4f8f2a58a, findElement {value=//p[contains(text(),'There is no product that matches the search criter')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63889}, goog:processID: 640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63889/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5b75b7a2cca95b245ab8cdc4f8f2a58a
-at jdk.internal.reflect.GeneratedConstructorAccessor29.newInstance(Unknown Source)
+Command: [b12b21ec0e99a829d43b2f67a0341c76, findElement {value=//p[contains(text(),'There is no product that matches the search criter')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49811}, goog:processID: 13364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49811/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b12b21ec0e99a829d43b2f67a0341c76
+at jdk.internal.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
@@ -250,27 +218,11 @@ at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxEl
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchInvalidKeyword -->
-        <test-method signature="searchInvalidKeyword(java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-04-07T21:30:36 ICT" name="searchInvalidKeyword" data-provider="searchData" finished-at="2026-04-07T21:30:38 ICT" duration-ms="1311" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BOUNDARY]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchInvalidKeyword -->
-        <test-method signature="filterProduct()[pri:3, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-04-07T21:30:39 ICT" name="filterProduct" finished-at="2026-04-07T21:30:43 ICT" duration-ms="4650" status="PASS">
+        <test-method signature="filterProduct()[pri:3, instance:com.opencart.tests.SearchTest@6ceb7b5e]" started-at="2026-04-13T10:37:42 ICT" name="filterProduct" finished-at="2026-04-13T10:37:45 ICT" duration-ms="3379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterProduct -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.opencart.tests.SearchTest@426e505c]" started-at="2026-04-07T21:30:45 ICT" name="closeDriver" finished-at="2026-04-07T21:30:45 ICT" duration-ms="678" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.opencart.tests.SearchTest@6ceb7b5e]" started-at="2026-04-13T10:37:47 ICT" name="closeDriver" finished-at="2026-04-13T10:37:47 ICT" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->

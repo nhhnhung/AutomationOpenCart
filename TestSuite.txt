@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 57.43 s <<< FAILURE! -- in TestSuite
-com.opencart.tests.SearchTest.filterFromCategory -- Time elapsed: 4.657 s <<< FAILURE!
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 36.94 s <<< FAILURE! -- in TestSuite
+com.opencart.tests.SearchTest.filterFromCategory -- Time elapsed: 2.495 s <<< FAILURE!
 java.lang.RuntimeException: Kiểm tra thất bại: Lỗi: Lọc theo danh mục không hiện sản phẩm
 	at com.opencart.base.BasePage.assertTrue(BasePage.java:144)
 	at com.opencart.tests.SearchTest.filterFromCategory(SearchTest.java:65)
@@ -39,7 +39,7 @@ java.lang.RuntimeException: Kiểm tra thất bại: Lỗi: Lọc theo danh mụ
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.opencart.tests.SearchTest.searchInvalidKeyword[BOUNDARY, i](6) -- Time elapsed: 7.869 s <<< FAILURE!
+com.opencart.tests.SearchTest.searchInvalidKeyword[BOUNDARY, A](4) -- Time elapsed: 6.932 s <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Unable to locate the element
 	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:90)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
@@ -84,10 +84,10 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.29.0', revision: '5fc1ec94cb'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5b75b7a2cca95b245ab8cdc4f8f2a58a, findElement {value=//p[contains(text(),'There is no product that matches the search criter')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63889}, goog:processID: 640, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63889/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5b75b7a2cca95b245ab8cdc4f8f2a58a
-	at jdk.internal.reflect.GeneratedConstructorAccessor29.newInstance(Unknown Source)
+Command: [b12b21ec0e99a829d43b2f67a0341c76, findElement {value=//p[contains(text(),'There is no product that matches the search criter')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49811}, goog:processID: 13364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49811/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b12b21ec0e99a829d43b2f67a0341c76
+	at jdk.internal.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
