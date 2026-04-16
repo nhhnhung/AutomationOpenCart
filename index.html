@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -105,11 +105,6 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="filterFromCategory">filterFromCategory</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(BOUNDARY, A)">searchInvalidKeyword(BOUNDARY, A)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Search_Test_Suite -->
@@ -128,17 +123,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(NEGATIVE, DROP TABLE users;)">searchInvalidKeyword(NEGATIVE, DROP TABLE users;)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(NEGATIVE, Pixel)">searchInvalidKeyword(NEGATIVE, Pixel)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(NEGATIVE, Nokia)">searchInvalidKeyword(NEGATIVE, Nokia)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(NEGATIVE, )">searchInvalidKeyword(NEGATIVE, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(NEGATIVE, DROP TABLE users;--)">searchInvalidKeyword(NEGATIVE, DROP TABLE users;--)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Search_Test_Suite" title="com.opencart.tests.SearchTest" class="method navigator-link" hash-for-method="searchInvalidKeyword(BOUNDARY, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...)">searchInvalidKeyword(BOUNDARY, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -177,49 +177,6 @@
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchInvalidKeyword(BOUNDARY, A)">
-                  </a> <!-- searchInvalidKeyword(BOUNDARY, A) -->
-                  <span class="method-name">searchInvalidKeyword</span>
-                  <span class="parameters">(BOUNDARY, A)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Unable to locate the element
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:90)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.isDisplayed(Unknown Source)
-	at com.opencart.pages.SearchPage.isDisplayMsg(SearchPage.java:75)
-	at com.opencart.tests.SearchTest.searchInvalidKeyword(SearchTest.java:44)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),&apos;There is no product that matches the search criter&apos;)]&quot;}
-  (Session info: chrome=146.0.7680.178)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.18&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b12b21ec0e99a829d43b2f67a0341c76, findElement {value=//p[contains(text(),&apos;There is no product that matches the search criter&apos;)], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49811}, goog:processID: 13364, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49811/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b12b21ec0e99a829d43b2f67a0341c76
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:38)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:156)
-	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:79)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:86)
-	... 36 more
-... Removed 35 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Search_Test_Suite-class-failed -->
           <div class="suite-Search_Test_Suite-class-passed">
@@ -237,18 +194,10 @@ Session ID: b12b21ec0e99a829d43b2f67a0341c76
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="searchInvalidKeyword(NEGATIVE, DROP TABLE users;)">
-                  </a> <!-- searchInvalidKeyword(NEGATIVE, DROP TABLE users;) -->
+                  <a name="searchInvalidKeyword(NEGATIVE, Nokia)">
+                  </a> <!-- searchInvalidKeyword(NEGATIVE, Nokia) -->
                   <span class="method-name">searchInvalidKeyword</span>
-                  <span class="parameters">(NEGATIVE, DROP TABLE users;)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchInvalidKeyword(NEGATIVE, Pixel)">
-                  </a> <!-- searchInvalidKeyword(NEGATIVE, Pixel) -->
-                  <span class="method-name">searchInvalidKeyword</span>
-                  <span class="parameters">(NEGATIVE, Pixel)</span>
+                  <span class="parameters">(NEGATIVE, Nokia)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -257,6 +206,22 @@ Session ID: b12b21ec0e99a829d43b2f67a0341c76
                   </a> <!-- searchInvalidKeyword(NEGATIVE, ) -->
                   <span class="method-name">searchInvalidKeyword</span>
                   <span class="parameters">(NEGATIVE, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchInvalidKeyword(NEGATIVE, DROP TABLE users;--)">
+                  </a> <!-- searchInvalidKeyword(NEGATIVE, DROP TABLE users;-) -->
+                  <span class="method-name">searchInvalidKeyword</span>
+                  <span class="parameters">(NEGATIVE, DROP TABLE users;--)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchInvalidKeyword(BOUNDARY, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...)">
+                  </a> <!-- searchInvalidKeyword(BOUNDARY, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...) -->
+                  <span class="method-name">searchInvalidKeyword</span>
+                  <span class="parameters">(BOUNDARY, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -323,38 +288,38 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchInvalidKeyword')
+data.setCell(0, 1, 'filterProduct')
 data.setCell(0, 2, 'com.opencart.tests.SearchTest')
-data.setCell(0, 3, 5845);
+data.setCell(0, 3, 6181);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'filterProduct')
+data.setCell(1, 1, 'filterFromCategory')
 data.setCell(1, 2, 'com.opencart.tests.SearchTest')
-data.setCell(1, 3, 3379);
+data.setCell(1, 3, 2334);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'filterFromCategory')
+data.setCell(2, 1, 'searchValidKeyword')
 data.setCell(2, 2, 'com.opencart.tests.SearchTest')
-data.setCell(2, 3, 1284);
+data.setCell(2, 3, 1959);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'searchValidKeyword')
+data.setCell(3, 1, 'searchInvalidKeyword')
 data.setCell(3, 2, 'com.opencart.tests.SearchTest')
-data.setCell(3, 3, 1255);
+data.setCell(3, 3, 1205);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'searchInvalidKeyword')
 data.setCell(4, 2, 'com.opencart.tests.SearchTest')
-data.setCell(4, 3, 790);
+data.setCell(4, 3, 1149);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'searchInvalidKeyword')
 data.setCell(5, 2, 'com.opencart.tests.SearchTest')
-data.setCell(5, 3, 617);
+data.setCell(5, 3, 1056);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'searchInvalidKeyword')
 data.setCell(6, 2, 'com.opencart.tests.SearchTest')
-data.setCell(6, 3, 520);
+data.setCell(6, 3, 932);
 window.suiteTableData['Search_Test_Suite']= { tableData: data, tableDiv: 'times-div-Search_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-Search_Test_Suite">
               </div> <!-- times-div-Search_Test_Suite -->
             </div> <!-- times-div -->
@@ -387,43 +352,41 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">initPages</span>
-                <span class="method-start">11973 ms</span>
+                <span class="method-start">7763 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">searchValidKeyword(HAPPY, iPhone)</span>
-                <span class="method-start">14124 ms</span>
+                <span class="method-start">10356 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">filterFromCategory</span>
-                <span class="method-start">16521 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">searchInvalidKeyword(NEGATIVE, Pixel)</span>
-                <span class="method-start">19065 ms</span>
+                <span class="method-start">14230 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchInvalidKeyword(NEGATIVE, )</span>
-                <span class="method-start">20526 ms</span>
+                <span class="method-start">18262 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">searchInvalidKeyword(NEGATIVE, DROP TABLE users;)</span>
-                <span class="method-start">21825 ms</span>
+                <span class="method-name">searchInvalidKeyword(NEGATIVE, Nokia)</span>
+                <span class="method-start">20240 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">searchInvalidKeyword(BOUNDARY, A)</span>
-                <span class="method-start">23424 ms</span>
+                <span class="method-name">searchInvalidKeyword(NEGATIVE, DROP TABLE users;--)</span>
+                <span class="method-start">22328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchInvalidKeyword(BOUNDARY, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...)</span>
+                <span class="method-start">24521 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">filterProduct</span>
-                <span class="method-start">30361 ms</span>
+                <span class="method-start">26908 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">34858 ms</span>
+                <span class="method-start">36016 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
