@@ -13895,3 +13895,32 @@ Thông báo thực tế: [] expected [true] but found [false]
 [INFO] 07-04-2026 21:20:47 [main] Log - Giá trị đúng
 [INFO] 07-04-2026 21:20:47 [main] Log - Test case checkoutWithAccountSuccess is passed.
 [INFO] 07-04-2026 21:20:49 [main] Log - End testing OpenCart Demo Tests
+[INFO] 16-04-2026 07:38:51 [main] Log - Khởi tạo trình duyệt: chrome
+[INFO] 16-04-2026 07:39:06 [main] Log - Running test case guestCheckoutSuccess
+[INFO] 16-04-2026 07:39:11 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (d4f99591b5662b554494a60322bc8f0c)] -> id: input-payment-firstname]
+[INFO] 16-04-2026 07:39:17 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 16-04-2026 07:39:17 [main] Log - Giá trị đúng
+[INFO] 16-04-2026 07:39:20 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 16-04-2026 07:39:20 [main] Log - Giá trị đúng
+[INFO] 16-04-2026 07:39:20 [main] Log - Test case guestCheckoutSuccess is passed.
+[INFO] 16-04-2026 07:39:23 [main] Log - Running test case checkoutFailWithoutAgree
+[INFO] 16-04-2026 07:39:26 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (d4f99591b5662b554494a60322bc8f0c)] -> id: input-payment-firstname]
+[INFO] 16-04-2026 07:39:31 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 16-04-2026 07:39:31 [main] Log - Giá trị đúng
+[INFO] 16-04-2026 07:39:31 [main] Log - Test case checkoutFailWithoutAgree is passed.
+[INFO] 16-04-2026 07:39:33 [main] Log - Running test case checkoutFailInvailEmailAndPhone
+[INFO] 16-04-2026 07:39:35 [main] Log - Cuộn tới phần tử: [[ChromeDriver: chrome on windows (d4f99591b5662b554494a60322bc8f0c)] -> id: input-payment-firstname]
+[ERROR] 16-04-2026 07:39:43 [main] Log - Test case checkoutFailInvailEmailAndPhone is failed.
+[ERROR] 16-04-2026 07:39:43 [main] Log - org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Unable to locate the element
+[INFO] 16-04-2026 07:39:44 [main] Log - Running test case checkoutWithAccountSuccess
+[INFO] 16-04-2026 07:39:53 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 16-04-2026 07:39:53 [main] Log - Giá trị đúng
+[INFO] 16-04-2026 07:39:54 [main] Log - Đang xác thực giá trị đúng...
+
+[INFO] 16-04-2026 07:39:54 [main] Log - Giá trị đúng
+[INFO] 16-04-2026 07:39:54 [main] Log - Test case checkoutWithAccountSuccess is passed.
+[INFO] 16-04-2026 07:39:55 [main] Log - End testing OpenCart Demo Tests
