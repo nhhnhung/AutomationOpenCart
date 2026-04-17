@@ -8,54 +8,21 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Search Test Suite</th></tr>
-<tr><td><a href="#t0">Search Tests</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">29,148</td><td></td><td></td></tr>
+<tr><th colspan="8">Login Test Suite</th></tr>
+<tr><td><a href="#t0">Login Tests</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">36,950</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Search Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Search Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.opencart.tests.SearchTest</td><td><a href="#m0">filterFromCategory</a></td><td rowspan="1">1776423783550</td><td rowspan="1">1231</td></tr><tr class="failedeven"><td><a href="#m1">searchInvalidKeyword</a></td><td rowspan="1">1776423790485</td><td rowspan="1">5732</td></tr><tr><th colspan="4">Search Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.opencart.tests.SearchTest</td><td><a href="#m2">filterProduct</a></td><td rowspan="1">1776423797471</td><td rowspan="1">2857</td></tr><tr class="passedeven"><td><a href="#m3">searchInvalidKeyword</a></td><td rowspan="3">1776423787523</td><td rowspan="3">625</td></tr><tr class="passedeven"><td><a href="#m4">searchInvalidKeyword</a></td></tr><tr class="passedeven"><td><a href="#m5">searchInvalidKeyword</a></td></tr><tr class="passedeven"><td><a href="#m6">searchValidKeyword</a></td><td rowspan="1">1776423781235</td><td rowspan="1">1238</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Login Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.opencart.tests.LoginTest</td><td><a href="#m0">testLoginWhenLoginBlock</a></td><td rowspan="1">1776424483065</td><td rowspan="1">3207</td></tr><tr><th colspan="4">Login Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.opencart.tests.LoginTest</td><td><a href="#m1">testBlockLogin</a></td><td rowspan="1">1776424478910</td><td rowspan="1">3010</td></tr><tr class="passedeven"><td><a href="#m2">testLoginNegativeBoundary</a></td><td rowspan="4">1776424473921</td><td rowspan="4">1703</td></tr><tr class="passedeven"><td><a href="#m3">testLoginNegativeBoundary</a></td></tr><tr class="passedeven"><td><a href="#m4">testLoginNegativeBoundary</a></td></tr><tr class="passedeven"><td><a href="#m5">testLoginNegativeBoundary</a></td></tr><tr class="passedeven"><td><a href="#m6">testLoginSuccess</a></td><td rowspan="1">1776424460723</td><td rowspan="1">4683</td></tr></tbody>
 </table>
-<h2>Search Tests</h2><h3 id="m0">com.opencart.tests.SearchTest#filterFromCategory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Kiểm tra thất bại: Lỗi: Lọc theo danh mục không hiện sản phẩm
+<h2>Login Tests</h2><h3 id="m0">com.opencart.tests.LoginTest#testLoginWhenLoginBlock</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: Kiểm tra thất bại: Lỗi: Login bị khóa vẫn đăng nhập được
 	at com.opencart.base.BasePage.assertTrue(BasePage.java:144)
-	at com.opencart.tests.SearchTest.filterFromCategory(SearchTest.java:65)
+	at com.opencart.tests.LoginTest.testLoginWhenLoginBlock(LoginTest.java:98)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.opencart.tests.SearchTest#searchInvalidKeyword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>BOUNDARY</td><td>G</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds. Unable to locate the element
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:90)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy31.isDisplayed(Unknown Source)
-	at com.opencart.pages.SearchPage.isDisplayMsg(SearchPage.java:75)
-	at com.opencart.tests.SearchTest.searchInvalidKeyword(SearchTest.java:44)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),&apos;There is no product that matches the search criter&apos;)]&quot;}
-  (Session info: chrome=147.0.7727.57)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.18&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a01d2b3551d096c65bbaaf6fe8e13c9f, findElement {using=xpath, value=//p[contains(text(),&apos;There is no product that matches the search criter&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\velvet\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55573}, goog:processID: 6352, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55573/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a01d2b3551d096c65bbaaf6fe8e13c9f
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:38)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:156)
-	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:79)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:86)
-	... 36 more
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.opencart.tests.SearchTest#filterProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.opencart.tests.SearchTest#searchInvalidKeyword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>NEGATIVE</td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.opencart.tests.SearchTest#searchInvalidKeyword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>NEGATIVE</td><td>iPhone&apos;; DROP TABLE users;--</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.opencart.tests.SearchTest#searchInvalidKeyword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>NEGATIVE</td><td>Pixel</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.opencart.tests.SearchTest#searchValidKeyword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>HAPPY</td><td>macbook</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.opencart.tests.LoginTest#testBlockLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.opencart.tests.LoginTest#testLoginNegativeBoundary</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>NEGATIVE</td><td>john068@mail.com</td><td>&apos; OR &apos;1&apos;=&apos;1</td><td>Warning: No match for E-Mail Address and/or Password.</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.opencart.tests.LoginTest#testLoginNegativeBoundary</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>NEGATIVE</td><td>nonexistent@mail.com</td><td>anyPass</td><td>Warning: No match for E-Mail Address and/or Password.</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.opencart.tests.LoginTest#testLoginNegativeBoundary</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>NEGATIVE</td><td>john72@mail.com</td><td></td><td>Warning: No match for E-Mail Address and/or Password.</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.opencart.tests.LoginTest#testLoginNegativeBoundary</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>BOUNDARY</td><td>john72@mail.com</td><td>abc12</td><td>Warning: No match for E-Mail Address and/or Password.</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.opencart.tests.LoginTest#testLoginSuccess</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>HAPPY</td><td>john068@mail.com</td><td>123456</td><td>Login successful</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
