@@ -7,6 +7,7 @@
         <methods>
           <include name="initPages"/>
           <include name="filterFromCategory"/>
+          <include name="searchInvalidKeyword" invocation-numbers="3"/>
           <include name="createDriver"/>
           <include name="closeDriver"/>
         </methods>
