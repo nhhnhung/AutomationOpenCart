@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,11 +102,6 @@
                       <a href="#" panel-name="suite-Login_Test_Suite" class="show-methods failed suite-Login_Test_Suite"> (show)</a> <!-- show-methods failed suite-Login_Test_Suite -->
                     </span>
                     <div class="method-list-content failed suite-Login_Test_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful)">testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginWhenLoginBlock">testLoginWhenLoginBlock</a> <!-- method navigator-link -->
@@ -128,22 +123,27 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginNegativeBoundary(NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.)">testLoginNegativeBoundary(NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginNegativeBoundary(BOUNDARY, john72@mail.com, abc12, Warning: No match for E-Mail Address and/or Password.)">testLoginNegativeBoundary(BOUNDARY, john72@mail.com, abc12, Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginNegativeBoundary(NEGATIVE, nonexistent@example.com, anyPass123, Warning: No match for E-Mail Address and/or Password.)">testLoginNegativeBoundary(NEGATIVE, nonexistent@example.com, anyPass123, Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginNegativeBoundary(NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.)">testLoginNegativeBoundary(NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginNegativeBoundary(NEGATIVE, john068@mail.com&#039; OR &#039;1&#039;=&#039;1, 123456, Warning: No match for E-Mail Address and/or Password.)">testLoginNegativeBoundary(NEGATIVE, john068@mail.com' OR '1'='1, 123456, Warning: No match for E-Mail Address and/or Password.)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginNegativeBoundary(NEGATIVE, john068@mail.com&#039; OR &#039;1&#039;=&#039;1, anything, Warning: No match for E-Mail Address and/or Passwor...)">testLoginNegativeBoundary(NEGATIVE, john068@mail.com' OR '1'='1, anything, Warning: No match for E-Mail Address and/or Passwor...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginNegativeBoundary(NEGATIVE, nonexistent_user@mail.com, somePass123, Warning: No match for E-Mail Address and/or Passwo...)">testLoginNegativeBoundary(NEGATIVE, nonexistent_user@mail.com, somePass123, Warning: No match for E-Mail Address and/or Passwo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login_Test_Suite" title="com.opencart.tests.LoginTest" class="method navigator-link" hash-for-method="testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful)">testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Login_Test_Suite -->
@@ -164,20 +164,6 @@
               <span class="class-name">com.opencart.tests.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful)">
-                  </a> <!-- testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful) -->
-                  <span class="method-name">testLoginSuccess</span>
-                  <span class="parameters">(HAPPY, john068@mail.com, 123456, Login successful)</span>
-                  <div class="stack-trace">java.lang.RuntimeException: Kiểm tra thất bại: Đăng nhập tài khoản thất bại!
-	at com.opencart.base.BasePage.assertTrue(BasePage.java:144)
-	at com.opencart.tests.LoginTest.testLoginSuccess(LoginTest.java:43)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testLoginWhenLoginBlock">
@@ -208,14 +194,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginNegativeBoundary(NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.)">
-                  </a> <!-- testLoginNegativeBoundary(NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.) -->
-                  <span class="method-name">testLoginNegativeBoundary</span>
-                  <span class="parameters">(NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testLoginNegativeBoundary(BOUNDARY, john72@mail.com, abc12, Warning: No match for E-Mail Address and/or Password.)">
                   </a> <!-- testLoginNegativeBoundary(BOUNDARY, john72@mail.com, abc12, Warning: No match for E-Mail Address and/or Password.) -->
                   <span class="method-name">testLoginNegativeBoundary</span>
@@ -224,18 +202,34 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginNegativeBoundary(NEGATIVE, nonexistent@example.com, anyPass123, Warning: No match for E-Mail Address and/or Password.)">
-                  </a> <!-- testLoginNegativeBoundary(NEGATIVE, nonexistent@example.com, anyPass123, Warning: No match for E-Mail Address and/or Password.) -->
+                  <a name="testLoginNegativeBoundary(NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.)">
+                  </a> <!-- testLoginNegativeBoundary(NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.) -->
                   <span class="method-name">testLoginNegativeBoundary</span>
-                  <span class="parameters">(NEGATIVE, nonexistent@example.com, anyPass123, Warning: No match for E-Mail Address and/or Password.)</span>
+                  <span class="parameters">(NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLoginNegativeBoundary(NEGATIVE, john068@mail.com&#039; OR &#039;1&#039;=&#039;1, 123456, Warning: No match for E-Mail Address and/or Password.)">
-                  </a> <!-- testLoginNegativeBoundary(NEGATIVE, john068@mail.com' OR '1'='1, 123456, Warning: No match for E-Mail Address and/or Password.) -->
+                  <a name="testLoginNegativeBoundary(NEGATIVE, john068@mail.com&#039; OR &#039;1&#039;=&#039;1, anything, Warning: No match for E-Mail Address and/or Passwor...)">
+                  </a> <!-- testLoginNegativeBoundary(NEGATIVE, john068@mail.com' OR '1'='1, anything, Warning: No match for E-Mail Address and/or Passwor...) -->
                   <span class="method-name">testLoginNegativeBoundary</span>
-                  <span class="parameters">(NEGATIVE, john068@mail.com' OR '1'='1, 123456, Warning: No match for E-Mail Address and/or Password.)</span>
+                  <span class="parameters">(NEGATIVE, john068@mail.com' OR '1'='1, anything, Warning: No match for E-Mail Address and/or Password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginNegativeBoundary(NEGATIVE, nonexistent_user@mail.com, somePass123, Warning: No match for E-Mail Address and/or Passwo...)">
+                  </a> <!-- testLoginNegativeBoundary(NEGATIVE, nonexistent_user@mail.com, somePass123, Warning: No match for E-Mail Address and/or Passwo...) -->
+                  <span class="method-name">testLoginNegativeBoundary</span>
+                  <span class="parameters">(NEGATIVE, nonexistent_user@mail.com, somePass123, Warning: No match for E-Mail Address and/or Password.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful)">
+                  </a> <!-- testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful) -->
+                  <span class="method-name">testLoginSuccess</span>
+                  <span class="parameters">(HAPPY, john068@mail.com, 123456, Login successful)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -294,38 +288,38 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testLoginNegativeBoundary')
+data.setCell(0, 1, 'testLoginSuccess')
 data.setCell(0, 2, 'com.opencart.tests.LoginTest')
-data.setCell(0, 3, 3122);
+data.setCell(0, 3, 5100);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLoginWhenLoginBlock')
 data.setCell(1, 2, 'com.opencart.tests.LoginTest')
-data.setCell(1, 3, 2874);
+data.setCell(1, 3, 3068);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testBlockLogin')
 data.setCell(2, 2, 'com.opencart.tests.LoginTest')
-data.setCell(2, 3, 2264);
+data.setCell(2, 3, 2456);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testLoginSuccess')
+data.setCell(3, 1, 'testLoginNegativeBoundary')
 data.setCell(3, 2, 'com.opencart.tests.LoginTest')
-data.setCell(3, 3, 2132);
+data.setCell(3, 3, 1425);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testLoginNegativeBoundary')
 data.setCell(4, 2, 'com.opencart.tests.LoginTest')
-data.setCell(4, 3, 1169);
+data.setCell(4, 3, 1360);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testLoginNegativeBoundary')
 data.setCell(5, 2, 'com.opencart.tests.LoginTest')
-data.setCell(5, 3, 1130);
+data.setCell(5, 3, 1317);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testLoginNegativeBoundary')
 data.setCell(6, 2, 'com.opencart.tests.LoginTest')
-data.setCell(6, 3, 1082);
+data.setCell(6, 3, 1282);
 window.suiteTableData['Login_Test_Suite']= { tableData: data, tableDiv: 'times-div-Login_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Login_Test_Suite">
               </div> <!-- times-div-Login_Test_Suite -->
             </div> <!-- times-div -->
@@ -358,43 +352,41 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">initPages</span>
-                <span class="method-start">6913 ms</span>
+                <span class="method-start">6800 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testLoginSuccess(HAPPY, john068@mail.com, 123456, Login successful)</span>
-                <span class="method-start">9252 ms</span>
+                <span class="method-start">9997 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testLoginNegativeBoundary(NEGATIVE, nonexistent@example.com, anyPass123, Warning: No match for E-Mail Address and/or Password.)</span>
-                <span class="method-start">13038 ms</span>
+                <span class="method-name">testLoginNegativeBoundary(NEGATIVE, nonexistent_user@mail.com, somePass123, Warning: No match for E-Mail Address and/or Passwo...)</span>
+                <span class="method-start">16499 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLoginNegativeBoundary(NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.)</span>
-                <span class="method-start">17076 ms</span>
+                <span class="method-start">18822 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testLoginNegativeBoundary(NEGATIVE, john068@mail.com' OR '1'='1, 123456, Warning: No match for E-Mail Address and/or Password.)</span>
-                <span class="method-start">19039 ms</span>
+                <span class="method-name">testLoginNegativeBoundary(NEGATIVE, john068@mail.com' OR '1'='1, anything, Warning: No match for E-Mail Address and/or Passwor...)</span>
+                <span class="method-start">21036 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLoginNegativeBoundary(BOUNDARY, john72@mail.com, abc12, Warning: No match for E-Mail Address and/or Password.)</span>
-                <span class="method-start">21004 ms</span>
+                <span class="method-start">23253 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testBlockLogin</span>
-                <span class="method-start">23008 ms</span>
+                <span class="method-start">25561 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testLoginWhenLoginBlock</span>
-                <span class="method-start">26255 ms</span>
+                <span class="method-start">29068 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeDriver</span>
-                <span class="method-start">30321 ms</span>
+                <span class="method-start">33444 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

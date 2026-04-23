@@ -5,7 +5,6 @@
     <classes>
       <class name="com.opencart.tests.LoginTest">
         <methods>
-          <include name="testLoginSuccess" invocation-numbers="0"/>
           <include name="testLoginWhenLoginBlock"/>
           <include name="createDriver"/>
           <include name="initPages"/>
