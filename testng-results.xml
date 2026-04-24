@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-24T05:55:28 ICT" name="Login Test Suite" finished-at="2026-04-24T05:56:01 ICT" duration-ms="33823">
+  <suite started-at="2026-04-24T07:22:18 ICT" name="Login Test Suite" finished-at="2026-04-24T07:23:02 ICT" duration-ms="43951">
     <groups>
     </groups>
-    <test started-at="2026-04-24T05:55:28 ICT" name="Login Tests" finished-at="2026-04-24T05:56:01 ICT" duration-ms="33823">
+    <test started-at="2026-04-24T07:22:18 ICT" name="Login Tests" finished-at="2026-04-24T07:23:02 ICT" duration-ms="43951">
       <class name="com.opencart.tests.LoginTest">
-        <test-method is-config="true" signature="createDriver()[pri:0, instance:com.opencart.tests.LoginTest@6ceb7b5e]" started-at="2026-04-24T05:55:28 ICT" name="createDriver" finished-at="2026-04-24T05:55:34 ICT" duration-ms="6791" status="PASS">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:com.opencart.tests.LoginTest@322803db]" started-at="2026-04-24T07:22:18 ICT" name="createDriver" finished-at="2026-04-24T07:22:29 ICT" duration-ms="10609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.opencart.tests.LoginTest@6ceb7b5e]" started-at="2026-04-24T05:55:34 ICT" name="initPages" finished-at="2026-04-24T05:55:35 ICT" duration-ms="804" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.opencart.tests.LoginTest@322803db]" started-at="2026-04-24T07:22:29 ICT" name="initPages" finished-at="2026-04-24T07:22:30 ICT" duration-ms="1270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="testLoginSuccess(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.opencart.tests.LoginTest@6ceb7b5e]" started-at="2026-04-24T05:55:38 ICT" name="testLoginSuccess" data-provider="loginData" finished-at="2026-04-24T05:55:43 ICT" duration-ms="5100" status="PASS">
+        <test-method signature="testLoginSuccess(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.opencart.tests.LoginTest@322803db]" started-at="2026-04-24T07:22:33 ICT" name="testLoginSuccess" data-provider="loginData" finished-at="2026-04-24T07:22:39 ICT" duration-ms="6052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginSuccess -->
-        <test-method signature="testLoginNegativeBoundary(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.LoginTest@6ceb7b5e]" started-at="2026-04-24T05:55:44 ICT" name="testLoginNegativeBoundary" data-provider="loginData" finished-at="2026-04-24T05:55:46 ICT" duration-ms="1425" status="PASS">
+        <test-method signature="testLoginNegativeBoundary(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.LoginTest@322803db]" started-at="2026-04-24T07:22:41 ICT" name="testLoginNegativeBoundary" data-provider="loginData" finished-at="2026-04-24T07:22:43 ICT" duration-ms="2027" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,12 +50,12 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[nonexistent_user@mail.com]]>
+                <![CDATA[nonexistent@example.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[somePass123]]>
+                <![CDATA[anyPass123]]>
               </value>
             </param>
             <param index="3">
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginNegativeBoundary -->
-        <test-method signature="testLoginNegativeBoundary(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.LoginTest@6ceb7b5e]" started-at="2026-04-24T05:55:46 ICT" name="testLoginNegativeBoundary" data-provider="loginData" finished-at="2026-04-24T05:55:48 ICT" duration-ms="1317" status="PASS">
+        <test-method signature="testLoginNegativeBoundary(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.LoginTest@322803db]" started-at="2026-04-24T07:22:44 ICT" name="testLoginNegativeBoundary" data-provider="loginData" finished-at="2026-04-24T07:22:46 ICT" duration-ms="1588" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginNegativeBoundary -->
-        <test-method signature="testLoginNegativeBoundary(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.LoginTest@6ceb7b5e]" started-at="2026-04-24T05:55:49 ICT" name="testLoginNegativeBoundary" data-provider="loginData" finished-at="2026-04-24T05:55:50 ICT" duration-ms="1282" status="PASS">
+        <test-method signature="testLoginNegativeBoundary(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.LoginTest@322803db]" started-at="2026-04-24T07:22:47 ICT" name="testLoginNegativeBoundary" data-provider="loginData" finished-at="2026-04-24T07:22:48 ICT" duration-ms="1639" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,7 +107,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[anything]]>
+                <![CDATA[random]]>
               </value>
             </param>
             <param index="3">
@@ -119,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginNegativeBoundary -->
-        <test-method signature="testLoginNegativeBoundary(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.LoginTest@6ceb7b5e]" started-at="2026-04-24T05:55:51 ICT" name="testLoginNegativeBoundary" data-provider="loginData" finished-at="2026-04-24T05:55:52 ICT" duration-ms="1360" status="PASS">
+        <test-method signature="testLoginNegativeBoundary(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.opencart.tests.LoginTest@322803db]" started-at="2026-04-24T07:22:49 ICT" name="testLoginNegativeBoundary" data-provider="loginData" finished-at="2026-04-24T07:22:51 ICT" duration-ms="1633" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,7 +133,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[abc12]]>
+                <![CDATA[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]]>
               </value>
             </param>
             <param index="3">
@@ -145,11 +145,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginNegativeBoundary -->
-        <test-method signature="testBlockLogin()[pri:3, instance:com.opencart.tests.LoginTest@6ceb7b5e]" started-at="2026-04-24T05:55:53 ICT" name="testBlockLogin" finished-at="2026-04-24T05:55:56 ICT" duration-ms="2456" status="PASS">
+        <test-method signature="testBlockLogin()[pri:3, instance:com.opencart.tests.LoginTest@322803db]" started-at="2026-04-24T07:22:52 ICT" name="testBlockLogin" finished-at="2026-04-24T07:22:55 ICT" duration-ms="3556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBlockLogin -->
-        <test-method signature="testLoginWhenLoginBlock()[pri:4, instance:com.opencart.tests.LoginTest@6ceb7b5e]" started-at="2026-04-24T05:55:57 ICT" name="testLoginWhenLoginBlock" finished-at="2026-04-24T05:56:00 ICT" duration-ms="3068" status="FAIL">
+        <test-method signature="testLoginWhenLoginBlock()[pri:4, instance:com.opencart.tests.LoginTest@322803db]" started-at="2026-04-24T07:22:56 ICT" name="testLoginWhenLoginBlock" finished-at="2026-04-24T07:23:00 ICT" duration-ms="3641" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Kiểm tra thất bại: Lỗi: Login bị khóa vẫn đăng nhập được]]>
@@ -196,7 +196,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWhenLoginBlock -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.opencart.tests.LoginTest@6ceb7b5e]" started-at="2026-04-24T05:56:01 ICT" name="closeDriver" finished-at="2026-04-24T05:56:01 ICT" duration-ms="322" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.opencart.tests.LoginTest@322803db]" started-at="2026-04-24T07:23:01 ICT" name="closeDriver" finished-at="2026-04-24T07:23:02 ICT" duration-ms="688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
