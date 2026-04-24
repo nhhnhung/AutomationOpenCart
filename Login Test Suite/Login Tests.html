@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Apr 24 07:22:18 ICT 2026</td>
+<td>Started on:</td><td>Fri Apr 24 10:55:02 ICT 2026</td>
 </tr>
-<tr><td>Total time:</td><td>43 seconds (43951 ms)</td>
+<tr><td>Total time:</td><td>34 seconds (34336 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -80,8 +80,8 @@ function toggleAllBoxes() {
 	at com.opencart.base.BasePage.assertTrue(BasePage.java:144)
 	at com.opencart.tests.LoginTest.testLoginWhenLoginBlock(LoginTest.java:98)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace562964697", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace562964697'><pre>java.lang.RuntimeException: Ki?m tra th?t b?i: L?i: Login b? khóa v?n ??ng nh?p ???c
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace495071437", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace495071437'><pre>java.lang.RuntimeException: Ki?m tra th?t b?i: L?i: Login b? khóa v?n ??ng nh?p ???c
 	at com.opencart.base.BasePage.assertTrue(BasePage.java:144)
 	at com.opencart.tests.LoginTest.testLoginWhenLoginBlock(LoginTest.java:98)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -118,7 +118,7 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>3</td>
-<td>com.opencart.tests.LoginTest@322803db</td></tr>
+<td>com.opencart.tests.LoginTest@4b2a30d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -128,35 +128,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.opencart.tests.LoginTest.testBlockLogin()'><b>testBlockLogin</b><br>Test class: com.opencart.tests.LoginTest</td>
-<td></td>
-<td>3</td>
-<td>com.opencart.tests.LoginTest@322803db</td></tr>
-<tr>
-<td title='com.opencart.tests.LoginTest.testLoginNegativeBoundary()'><b>testLoginNegativeBoundary</b><br>Test class: com.opencart.tests.LoginTest<br>Parameters: BOUNDARY, john72@mail.com, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, Warning: No match for E-Mail Address and/or Password.</td>
+<td title='com.opencart.tests.LoginTest.testLoginNegativeBoundary()'><b>testLoginNegativeBoundary</b><br>Test class: com.opencart.tests.LoginTest<br>Parameters: NEGATIVE, nonexistent@example.com, anyPass123, Warning: No match for E-Mail Address and/or Password.</td>
 <td></td>
 <td>1</td>
-<td>com.opencart.tests.LoginTest@322803db</td></tr>
-<tr>
-<td title='com.opencart.tests.LoginTest.testLoginSuccess()'><b>testLoginSuccess</b><br>Test class: com.opencart.tests.LoginTest<br>Parameters: HAPPY, john068@mail.com, 123456, Login successful</td>
-<td></td>
-<td>6</td>
-<td>com.opencart.tests.LoginTest@322803db</td></tr>
+<td>com.opencart.tests.LoginTest@4b2a30d</td></tr>
 <tr>
 <td title='com.opencart.tests.LoginTest.testLoginNegativeBoundary()'><b>testLoginNegativeBoundary</b><br>Test class: com.opencart.tests.LoginTest<br>Parameters: NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.</td>
 <td></td>
 <td>1</td>
-<td>com.opencart.tests.LoginTest@322803db</td></tr>
+<td>com.opencart.tests.LoginTest@4b2a30d</td></tr>
 <tr>
-<td title='com.opencart.tests.LoginTest.testLoginNegativeBoundary()'><b>testLoginNegativeBoundary</b><br>Test class: com.opencart.tests.LoginTest<br>Parameters: NEGATIVE, john068@mail.com' OR '1'='1, random, Warning: No match for E-Mail Address and/or Password.</td>
+<td title='com.opencart.tests.LoginTest.testLoginNegativeBoundary()'><b>testLoginNegativeBoundary</b><br>Test class: com.opencart.tests.LoginTest<br>Parameters: NEGATIVE, john72@mail.com' OR '1'='1, abc123, Warning: No match for E-Mail Address and/or Password.</td>
 <td></td>
 <td>1</td>
-<td>com.opencart.tests.LoginTest@322803db</td></tr>
+<td>com.opencart.tests.LoginTest@4b2a30d</td></tr>
 <tr>
-<td title='com.opencart.tests.LoginTest.testLoginNegativeBoundary()'><b>testLoginNegativeBoundary</b><br>Test class: com.opencart.tests.LoginTest<br>Parameters: NEGATIVE, nonexistent@example.com, anyPass123, Warning: No match for E-Mail Address and/or Password.</td>
+<td title='com.opencart.tests.LoginTest.testLoginSuccess()'><b>testLoginSuccess</b><br>Test class: com.opencart.tests.LoginTest<br>Parameters: HAPPY, john068@mail.com, 123456, Login successful</td>
+<td></td>
+<td>4</td>
+<td>com.opencart.tests.LoginTest@4b2a30d</td></tr>
+<tr>
+<td title='com.opencart.tests.LoginTest.testLoginNegativeBoundary()'><b>testLoginNegativeBoundary</b><br>Test class: com.opencart.tests.LoginTest<br>Parameters: BOUNDARY, john068@mail.com, aaaaaaaaaaaaaaaaaaaaa, Warning: No match for E-Mail Address and/or Password.</td>
+<td></td>
+<td>1</td>
+<td>com.opencart.tests.LoginTest@4b2a30d</td></tr>
+<tr>
+<td title='com.opencart.tests.LoginTest.testBlockLogin()'><b>testBlockLogin</b><br>Test class: com.opencart.tests.LoginTest</td>
 <td></td>
 <td>2</td>
-<td>com.opencart.tests.LoginTest@322803db</td></tr>
+<td>com.opencart.tests.LoginTest@4b2a30d</td></tr>
 </table><p>
 </body>
 </html>

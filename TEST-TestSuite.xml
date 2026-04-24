@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="47.891" tests="7" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="36.695" tests="7" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="D:\actions-runner\_work\_tool\Java_Temurin-Hotspot_jdk\17.0.18-8\x64\bin"/>
-    <property name="sun.java.command" value="C:\Users\velvet\AppData\Local\Temp\surefire9937573394010705413\surefirebooter-20260424072211822_3.jar C:\Users\velvet\AppData\Local\Temp\surefire9937573394010705413 2026-04-24T07-22-11_307-jvmRun1 surefire-20260424072211822_1tmp surefire_0-20260424072211822_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\velvet\AppData\Local\Temp\surefire15657635836928804617\surefirebooter-20260424105457508_3.jar C:\Users\velvet\AppData\Local\Temp\surefire15657635836928804617 2026-04-24T10-54-57_177-jvmRun1 surefire-20260424105457508_1tmp surefire_0-20260424105457508_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\target\test-classes;D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\target\classes;C:\Users\velvet\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\velvet\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\velvet\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\velvet\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\velvet\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\velvet\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\velvet\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\velvet\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\velvet\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\velvet\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\velvet\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\velvet\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\velvet\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\velvet\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\velvet\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\velvet\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\velvet\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\velvet\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\velvet\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\velvet\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\velvet\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\velvet\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\velvet\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\velvet\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\velvet\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\velvet\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\velvet\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\velvet\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\velvet\.m2\repository\org\slf4j\slf4j-simple\2.0.16\slf4j-simple-2.0.16.jar;C:\Users\velvet\.m2\repository\org\apache\poi\poi\5.5.0\poi-5.5.0.jar;C:\Users\velvet\.m2\repository\commons-codec\commons-codec\1.19.0\commons-codec-1.19.0.jar;C:\Users\velvet\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\velvet\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\velvet\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\velvet\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\velvet\.m2\repository\org\apache\poi\poi-ooxml\5.5.0\poi-ooxml-5.5.0.jar;C:\Users\velvet\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.0\poi-ooxml-lite-5.5.0.jar;C:\Users\velvet\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\velvet\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\velvet\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\velvet\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\velvet\.m2\repository\com\github\stephenc\monte\monte-screen-recorder\0.7.7.0\monte-screen-recorder-0.7.7.0.jar;C:\Users\velvet\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\velvet\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\velvet\.m2\repository\io\qameta\allure\allure-testng\2.32.0\allure-testng-2.32.0.jar;C:\Users\velvet\.m2\repository\io\qameta\allure\allure-java-commons\2.32.0\allure-java-commons-2.32.0.jar;C:\Users\velvet\.m2\repository\io\qameta\allure\allure-model\2.32.0\allure-model-2.32.0.jar;C:\Users\velvet\.m2\repository\io\qameta\allure\allure-test-filter\2.32.0\allure-test-filter-2.32.0.jar;C:\Users\velvet\.m2\repository\io\qameta\allure\allure-attachments\2.32.0\allure-attachments-2.32.0.jar;C:\Users\velvet\.m2\repository\org\freemarker\freemarker\2.3.33\freemarker-2.3.33.jar;C:\Users\velvet\.m2\repository\org\aspectj\aspectjweaver\1.9.25\aspectjweaver-1.9.25.jar;C:\Users\velvet\.m2\repository\org\projectlombok\lombok\1.18.38\lombok-1.18.38.jar;C:\Users\velvet\.m2\repository\com\automation-remarks\video-recorder-testng\2.0\video-recorder-testng-2.0.jar;C:\Users\velvet\.m2\repository\com\automation-remarks\video-recorder-core\2.0\video-recorder-core-2.0.jar;C:\Users\velvet\.m2\repository\org\aeonbits\owner\owner-java8\1.0.10\owner-java8-1.0.10.jar;C:\Users\velvet\.m2\repository\org\aeonbits\owner\owner\1.0.10\owner-1.0.10.jar;C:\Users\velvet\.m2\repository\org\zeroturnaround\zt-exec\1.10\zt-exec-1.10.jar;C:\Users\velvet\.m2\repository\org\awaitility\awaitility\3.1.6\awaitility-3.1.6.jar;C:\Users\velvet\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\velvet\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\velvet\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\velvet\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\velvet\.m2\repository\org\apache\httpcomponents\httpclient\4.5.7\httpclient-4.5.7.jar;C:\Users\velvet\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\velvet\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\velvet\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\velvet\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\velvet\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;"/>
     <property name="allure.results.directory" value="allure-results"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\velvet\AppData\Local\Temp\surefire9937573394010705413\surefirebooter-20260424072211822_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\velvet\AppData\Local\Temp\surefire15657635836928804617\surefirebooter-20260424105457508_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.18+8"/>
@@ -60,77 +60,77 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testLoginSuccess[HAPPY, john068@mail.com, 123456, Login successful](1)" classname="com.opencart.tests.LoginTest" time="7.115">
+  <testcase name="testLoginSuccess[HAPPY, john068@mail.com, 123456, Login successful](1)" classname="com.opencart.tests.LoginTest" time="5.415">
     <system-out><![CDATA[Reset login attempt thành công
-[INFO] 24-04-2026 07:22:22 [main] Log - Kh?i t?o trình duy?t: chrome
-[INFO] 24-04-2026 07:22:33 [main] Log - Running test case testLoginSuccess
+[INFO] 24-04-2026 10:55:05 [main] Log - Kh?i t?o trình duy?t: chrome
+[INFO] 24-04-2026 10:55:11 [main] Log - Running test case testLoginSuccess
 width1536
 height864
 Đã ghi hình: testLoginSuccess
-[INFO] 24-04-2026 07:22:37 [main] Log - ?ang xác th?c giá tr? ?úng...
+[INFO] 24-04-2026 10:55:14 [main] Log - ?ang xác th?c giá tr? ?úng...
 
-[INFO] 24-04-2026 07:22:37 [main] Log - Giá tr? ?úng
-[INFO] 24-04-2026 07:22:37 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (04236db2af1e2655707c0009f8a55739)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
-[INFO] 24-04-2026 07:22:39 [main] Log - Test case testLoginSuccess is passed.
-Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testLoginSuccess\testLoginSuccess_24-04-2026 07-22-34.mp4
+[INFO] 24-04-2026 10:55:14 [main] Log - Giá tr? ?úng
+[INFO] 24-04-2026 10:55:14 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (31ca962d7b7a22a12923fb74c3e8c9f5)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 24-04-2026 10:55:16 [main] Log - Test case testLoginSuccess is passed.
+Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testLoginSuccess\testLoginSuccess_24-04-2026 10-55-12.mp4
 ]]></system-out>
-    <system-err><![CDATA[Apr 24, 2026 7:22:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Apr 24, 2026 10:55:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 147
-Apr 24, 2026 7:22:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Apr 24, 2026 10:55:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 147.0.7727.102. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.29.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testLoginNegativeBoundary[NEGATIVE, nonexistent@example.com, anyPass123, Warning: No match for E-Mail Address and/or Password.](1)" classname="com.opencart.tests.LoginTest" time="3.026">
-    <system-out><![CDATA[[INFO] 24-04-2026 07:22:41 [main] Log - Running test case testLoginNegativeBoundary
+  <testcase name="testLoginNegativeBoundary[NEGATIVE, nonexistent@example.com, anyPass123, Warning: No match for E-Mail Address and/or Password.](1)" classname="com.opencart.tests.LoginTest" time="2.426">
+    <system-out><![CDATA[[INFO] 24-04-2026 10:55:17 [main] Log - Running test case testLoginNegativeBoundary
 width1536
 height864
 Đã ghi hình: testLoginNegativeBoundary
-[INFO] 24-04-2026 07:22:43 [main] Log - Thông báo l?i: [Warning: No match for E-Mail Address and/or Password.]
-[INFO] 24-04-2026 07:22:43 [main] Log - Test case testLoginNegativeBoundary is passed.
-Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testLoginNegativeBoundary\testLoginNegativeBoundary_24-04-2026 07-22-41.mp4
+[INFO] 24-04-2026 10:55:19 [main] Log - Thông báo l?i: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 24-04-2026 10:55:19 [main] Log - Test case testLoginNegativeBoundary is passed.
+Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testLoginNegativeBoundary\testLoginNegativeBoundary_24-04-2026 10-55-17.mp4
 ]]></system-out>
   </testcase>
-  <testcase name="testLoginNegativeBoundary[NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.](2)" classname="com.opencart.tests.LoginTest" time="2.458">
-    <system-out><![CDATA[[INFO] 24-04-2026 07:22:44 [main] Log - Running test case testLoginNegativeBoundary
+  <testcase name="testLoginNegativeBoundary[NEGATIVE, john72@mail.com, , Warning: No match for E-Mail Address and/or Password.](2)" classname="com.opencart.tests.LoginTest" time="2.279">
+    <system-out><![CDATA[[INFO] 24-04-2026 10:55:20 [main] Log - Running test case testLoginNegativeBoundary
 width1536
 height864
 Đã ghi hình: testLoginNegativeBoundary
-[INFO] 24-04-2026 07:22:46 [main] Log - Thông báo l?i: [Warning: No match for E-Mail Address and/or Password.]
-[INFO] 24-04-2026 07:22:46 [main] Log - Test case testLoginNegativeBoundary is passed.
-Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testLoginNegativeBoundary\testLoginNegativeBoundary_24-04-2026 07-22-44.mp4
+[INFO] 24-04-2026 10:55:21 [main] Log - Thông báo l?i: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 24-04-2026 10:55:21 [main] Log - Test case testLoginNegativeBoundary is passed.
+Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testLoginNegativeBoundary\testLoginNegativeBoundary_24-04-2026 10-55-20.mp4
 ]]></system-out>
   </testcase>
-  <testcase name="testLoginNegativeBoundary[NEGATIVE, john068@mail.com&apos; OR &apos;1&apos;=&apos;1, random, Warning: No match for E-Mail Address and/or Password.](3)" classname="com.opencart.tests.LoginTest" time="2.573">
-    <system-out><![CDATA[[INFO] 24-04-2026 07:22:47 [main] Log - Running test case testLoginNegativeBoundary
+  <testcase name="testLoginNegativeBoundary[NEGATIVE, john72@mail.com&apos; OR &apos;1&apos;=&apos;1, abc123, Warning: No match for E-Mail Address and/or Password.](3)" classname="com.opencart.tests.LoginTest" time="2.276">
+    <system-out><![CDATA[[INFO] 24-04-2026 10:55:22 [main] Log - Running test case testLoginNegativeBoundary
 width1536
 height864
 Đã ghi hình: testLoginNegativeBoundary
-[INFO] 24-04-2026 07:22:48 [main] Log - Thông báo l?i: [Warning: No match for E-Mail Address and/or Password.]
-[INFO] 24-04-2026 07:22:48 [main] Log - Test case testLoginNegativeBoundary is passed.
-Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testLoginNegativeBoundary\testLoginNegativeBoundary_24-04-2026 07-22-47.mp4
+[INFO] 24-04-2026 10:55:23 [main] Log - Thông báo l?i: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 24-04-2026 10:55:23 [main] Log - Test case testLoginNegativeBoundary is passed.
+Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testLoginNegativeBoundary\testLoginNegativeBoundary_24-04-2026 10-55-22.mp4
 ]]></system-out>
   </testcase>
-  <testcase name="testLoginNegativeBoundary[BOUNDARY, john72@mail.com, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, Warning: No match for E-Mail Address and/or Password.](4)" classname="com.opencart.tests.LoginTest" time="2.475">
-    <system-out><![CDATA[[INFO] 24-04-2026 07:22:49 [main] Log - Running test case testLoginNegativeBoundary
+  <testcase name="testLoginNegativeBoundary[BOUNDARY, john068@mail.com, aaaaaaaaaaaaaaaaaaaaa, Warning: No match for E-Mail Address and/or Password.](4)" classname="com.opencart.tests.LoginTest" time="2.395">
+    <system-out><![CDATA[[INFO] 24-04-2026 10:55:24 [main] Log - Running test case testLoginNegativeBoundary
 width1536
 height864
 Đã ghi hình: testLoginNegativeBoundary
-[INFO] 24-04-2026 07:22:51 [main] Log - Thông báo l?i: [Warning: No match for E-Mail Address and/or Password.]
-[INFO] 24-04-2026 07:22:51 [main] Log - Test case testLoginNegativeBoundary is passed.
-Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testLoginNegativeBoundary\testLoginNegativeBoundary_24-04-2026 07-22-49.mp4
+[INFO] 24-04-2026 10:55:26 [main] Log - Thông báo l?i: [Warning: No match for E-Mail Address and/or Password.]
+[INFO] 24-04-2026 10:55:26 [main] Log - Test case testLoginNegativeBoundary is passed.
+Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testLoginNegativeBoundary\testLoginNegativeBoundary_24-04-2026 10-55-24.mp4
 ]]></system-out>
   </testcase>
-  <testcase name="testBlockLogin" classname="com.opencart.tests.LoginTest" time="4.574">
-    <system-out><![CDATA[[INFO] 24-04-2026 07:22:52 [main] Log - Running test case testBlockLogin
+  <testcase name="testBlockLogin" classname="com.opencart.tests.LoginTest" time="3.932">
+    <system-out><![CDATA[[INFO] 24-04-2026 10:55:27 [main] Log - Running test case testBlockLogin
 width1536
 height864
 Đã ghi hình: testBlockLogin
-[INFO] 24-04-2026 07:22:55 [main] Log - Thông báo l?i: [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
-[INFO] 24-04-2026 07:22:55 [main] Log - Test case testBlockLogin is passed.
-Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testBlockLogin\testBlockLogin_24-04-2026 07-22-52.mp4
+[INFO] 24-04-2026 10:55:29 [main] Log - Thông báo l?i: [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+[INFO] 24-04-2026 10:55:29 [main] Log - Test case testBlockLogin is passed.
+Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testBlockLogin\testBlockLogin_24-04-2026 10-55-27.mp4
 ]]></system-out>
   </testcase>
-  <testcase name="testLoginWhenLoginBlock" classname="com.opencart.tests.LoginTest" time="4.973">
+  <testcase name="testLoginWhenLoginBlock" classname="com.opencart.tests.LoginTest" time="4.883">
     <failure message="Kiểm tra thất bại: Lỗi: Login bị khóa vẫn đăng nhập được" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: Kiểm tra thất bại: Lỗi: Login bị khóa vẫn đăng nhập được
 	at com.opencart.base.BasePage.assertTrue(BasePage.java:144)
 	at com.opencart.tests.LoginTest.testLoginWhenLoginBlock(LoginTest.java:98)
@@ -167,17 +167,17 @@ height864
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[[INFO] 24-04-2026 07:22:56 [main] Log - Running test case testLoginWhenLoginBlock
+    <system-out><![CDATA[[INFO] 24-04-2026 10:55:31 [main] Log - Running test case testLoginWhenLoginBlock
 width1536
 height864
 Đã ghi hình: testLoginWhenLoginBlock
-[INFO] 24-04-2026 07:22:58 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (04236db2af1e2655707c0009f8a55739)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
-[INFO] 24-04-2026 07:23:00 [main] Log - ?ang xác th?c giá tr? ?úng...
+[INFO] 24-04-2026 10:55:32 [main] Log - Cu?n t?i ph?n t?: [[ChromeDriver: chrome on windows (31ca962d7b7a22a12923fb74c3e8c9f5)] -> xpath: //a[@class='list-group-item'][normalize-space()='Logout']]
+[INFO] 24-04-2026 10:55:34 [main] Log - ?ang xác th?c giá tr? ?úng...
 
-[ERROR] 24-04-2026 07:23:00 [main] Log - Test case testLoginWhenLoginBlock is failed.
+[ERROR] 24-04-2026 10:55:34 [main] Log - Test case testLoginWhenLoginBlock is failed.
 Đã chụp hình: testLoginWhenLoginBlock
-[ERROR] 24-04-2026 07:23:00 [main] Log - java.lang.RuntimeException: Ki?m tra th?t b?i: L?i: Login b? khóa v?n ??ng nh?p ???c
-Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testLoginWhenLoginBlock\testLoginWhenLoginBlock_24-04-2026 07-22-56.mp4
+[ERROR] 24-04-2026 10:55:34 [main] Log - java.lang.RuntimeException: Ki?m tra th?t b?i: L?i: Login b? khóa v?n ??ng nh?p ???c
+Đã chuyển đổi: D:\actions-runner\_work\AutomationOpenCart\AutomationOpenCart\export\videos\testLoginWhenLoginBlock\testLoginWhenLoginBlock_24-04-2026 10-55-31.mp4
 ]]></system-out>
   </testcase>
 </testsuite>
